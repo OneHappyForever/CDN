@@ -1,0 +1,26 @@
+.main-heading {
+	margin: 70px 0 50px !important;
+	font-size: 3em !important;
+	
+}
+
+.options {
+	margin-bottom: 100px !important;
+}
+
+.card-img-top {
+  	max-height: 100px !important;
+  	width: auto !important;
+	margin-bottom: 30px !important;
+}
+
+.card-title {
+	font-size: 1.5em !important;
+	font-weight: bold !important;
+}
+
+.card a {
+	margin-top: 20px !important;
+	word-wrap: break-word !important;
+	white-space: normal !important;
+}

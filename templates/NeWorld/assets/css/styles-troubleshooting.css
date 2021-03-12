@@ -1,0 +1,55 @@
+h2 {
+	font-size: 33px !important;
+}
+
+.main-header {
+	padding: 80px 0 !important;
+	background: radial-gradient(circle, rgba(0,0,0,0.61),rgba(0,0,0,1.00));
+	color: white;
+}
+
+.main-header h1 {
+	font-size: 3em !important;
+	margin: 0 0 10px;
+}
+
+.main-header p {
+	font-size: 1.8em !important;
+	line-height: 1.3 !important;
+	margin: 40px 0 20px;
+}
+
+.mainsection {
+	margin-bottom: 100px !important;
+}
+
+.mainsection h3 {
+	font-size: 2em;
+	font-weight: bold !important;
+	margin: 50px auto 30px;
+}
+
+.mainsection .card {
+	margin-top: 20px !important;
+}
+
+
+.mainsection .btn-link {
+	color: black !important;
+	white-space:normal !important;
+    word-wrap: break-word; 	
+	text-align: left !important;
+}
+
+
+@media screen and (min-width: 992px) {
+	
+	.container {
+		max-width: 970px !important;
+	}
+	
+	.mainsection {
+		
+	}
+	
+}

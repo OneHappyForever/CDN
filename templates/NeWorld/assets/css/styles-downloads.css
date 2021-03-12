@@ -1,0 +1,29 @@
+.title {
+    background-image: linear-gradient(to bottom right, black , grey);
+    color: whitesmoke;
+}
+
+.title h1 {
+    margin: 50px 0px;
+    font-size: 4em;
+}
+
+.info {
+    margin: 35px auto -20px;
+}
+
+.downloads {
+   margin: 70px auto 100px; 
+}
+
+.OS {
+    margin-bottom: 30px;
+}
+
+.OS .col-sm-12 {
+    margin-bottom: 20px;
+}
+
+.OS h3 {
+    margin-bottom: 20px;
+}

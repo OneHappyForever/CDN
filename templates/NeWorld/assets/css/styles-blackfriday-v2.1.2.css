@@ -1,0 +1,697 @@
+
+
+body, html {
+    height: 100%;
+}
+
+.wannaflix{
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+	margin: 20px 
+}
+
+.heroimg {
+	background-color:black;
+	background-image: url(/templates/NeWorld/assets/img/nasa-53884-unsplash.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.herotxt {
+	margin: 10px 8% 100px 8%;
+	color: white !important;
+	
+}
+
+.name {
+	font-size: 2em !important;
+
+}
+
+.mainHeading {
+	margin-top: 40px !important;
+	color: white !important;
+	font-size: 4.5em !important;
+	font-weight: bold!important;
+	letter-spacing: 2px !important;	
+	text-decoration: none !important;
+}
+
+.subLine {
+	margin-bottom: 30px !important;
+	font-size: 1.5em;
+}
+
+.heroimg a:hover {
+	text-decoration: none !important;
+	color: lightgrey;
+}
+
+/*.box {
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	padding: 20px 10%;
+}*/
+
+.align-center {
+	display: flex;
+  align-items: center;
+  justify-content: center ;
+	
+}
+
+
+#countdown {
+	font-size: 3.5em;
+	color: white;
+	font-weight: bold;
+	
+}
+
+.cdletter {
+	color: white;
+	font-size: 0.7em;
+}
+
+
+.btn-main {
+	margin: 30px 0 10px !important;
+    background-color: yellow !important;
+	color: black !important;
+	font-weight: bold !important;
+	border-color: black !important;
+	border-width: thick !important;
+  padding: 15px 100px !important;
+  border-radius: 30px !important;
+}
+
+.btn-main:hover {
+  color: black !important;
+}
+
+.grow { transition: all .2s ease-in-out !important; }
+.grow:hover { transform: scale(1.1) !important; }
+
+#share-buttons {
+	margin-top: 50px !important;
+}
+
+#share-buttons img {
+width: 60px;
+padding: 10px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+
+.priceTop {
+	position: absolute !important;
+	margin-left: 75% !important;
+	margin-top: -50px !important;
+	color: yellow !important;
+	font-size: 5em;
+	border-style: solid !important;
+	border-width: 3px !important;
+	border-color: yellow !important;
+	padding: 10px 20px !important;
+	background: black !important;
+}
+
+.dollar {
+	font-size: 0.5em !important;
+}
+
+.time {
+	font-size: 0.5em !important;
+}
+
+.mainFeature {
+	padding: 0 5%;
+}
+
+.featurePic {
+	
+	
+} 
+
+.description {
+	padding: 100px 10% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html,body
+{
+    width: 100% !important;
+    height: 100% ;
+    margin: 0px !important;
+    padding: 0px !important;
+    overflow-x: hidden !important; 
+}
+
+body {
+	font-family: 'Roboto', sans-serif !important;
+  	overflow-x: hidden !important; 
+}
+
+h2 {
+	font-size: 33px !important;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.benefit-box {
+	padding: 0px 0 !important;
+}
+
+.benefit {
+	margin-left: 24px;
+	margin-top: -25px;
+}
+
+.bens {
+	margin: 10px 0;
+}
+
+.fast-vpn {
+	background:linear-gradient(45deg,#B560FF,#13C3FF);
+}
+
+.fast-text {
+	padding: 20px 0;
+	color:white;
+}
+
+.fast-text .heading{
+	color: white;
+	font-family: "Helvetica";
+	font-weight: 700;
+}
+
+.fast-text p {
+	font-size: 1.1em !important;
+	font-family: "Helvetica";
+}
+
+.location {
+	margin: 30px 0;
+}
+
+.loc-txt {
+	padding: 20px;
+}
+
+.section {
+	padding: 100px 0px;
+}
+
+.top-title {
+	padding: 20px 0px 50px;
+}
+
+
+
+.mainbenefits {
+	background-color: #f4f4f4;
+	padding: 50px 0px 50px 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.mainbenefits .bnimg {
+	opacity: 0.7;
+}
+
+
+.benlist {
+	padding: 80px 0px 50px 0px;
+	background-color: black;
+	color: white;
+}
+
+.benlist h2 {
+	font-size: 4em !important;
+	font-weight: 900 !important;
+	font-family: "Helvetica" !important;
+}
+
+.benlist h3 {
+	font-size: 25px !important;
+	font-weight: 600 !important;
+}
+
+.benlist p {
+	font-weight: 300 !important;
+	font-size: 16px !important;
+	margin: 15px 0 !important;
+}
+
+.benlist i {
+	color: red;
+}
+
+.benlist a {
+	
+	font-weight: 600 !important;
+	font-size: 1.3em;
+}
+
+.benlist .row {
+	margin-bottom: 40px;
+}
+
+.icon-wrap {
+	padding: 5px 0px 5px 0px;	
+}
+
+.benlist .col-sm-12 {
+	margin: 30px 0;
+}
+
+.txt-wrap {
+	margin: 30px 0;
+}
+
+.worldmap {
+	background: linear-gradient(0deg,rgba(228,228,228,0.48),rgba(228,228,228,0.48)), url("{$WEB_ROOT}/templates/{$template}/assets/img/world-map.svg");
+	height: initial;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 50px 50px 70px;	
+}
+
+.testimonials {
+	margin: 50px 0px;
+}
+
+.rev {
+	color: grey;
+}
+
+
+.testimonials .txt {
+	padding: 30px 0px 0px;
+	
+}
+.testimonials .comment {
+	font-size: 1.5em;
+	color: grey;
+	font-family: 'arial';
+	padding: 20px 0 0;
+}
+
+.testimonials .person {
+	font-size: 1.3em;
+	color: grey;
+}
+
+
+.usert {
+	font-size: 16px !important;
+	font-weight: 300;
+	
+}
+
+.testimonials .user {
+	font-size: 20px !important;
+	color: white;
+	font-weight: 600 !important;
+}
+
+.job {
+	font-size: 15px;
+	font-weight: 300;
+	color: grey;
+	text-transform: uppercase;
+	margin: 10px 0;
+	font-family: 'Roboto Slab', serif;
+	letter-spacing: 3px;
+}
+
+.usertest {
+	background-color: #000000;
+	padding: 90px 0px;
+	color: white;
+}
+
+.usertest .test {
+	padding-bottom: 50px;
+}
+
+.usertest i {
+	color: grey;
+	margin: 20px 0 !important;
+}
+
+.usertest h2 {
+	font-size: 65px !important;
+	font-weight: 600 !important;
+	margin: 0 0 10px !important;
+}
+
+.gr-img {
+	margin:0px 0px 20px;
+}
+
+.money-back {
+	padding: 50px 0px 70px;
+	background-color: black;
+	color: white;
+	margin-top: -50px;
+}
+
+.money-back h2 {
+	font-family: Helvetica; 
+	font-size: 2.5em !important;
+	/*opacity: 0.8;*/
+}
+
+.alert {
+	background-color: #FFB9BA;
+	color: darkred;
+
+}
+
+
+/*Pricing box*/
+
+#pricing {
+	padding: 30px 0 0;
+}
+
+.pricing {
+	margin-bottom: 15px;
+}
+
+.price-title {
+	font-size: 3em !important;
+	color: black;
+	margin: 0 0 50px;
+	
+}
+
+.name {
+	font-size: 1.4em;
+	font-weight: 700 !important;
+	
+}
+
+.price {
+	color:darkslategrey;
+	font-size: 42px !important;
+	font-weight: 700 !important;
+}
+
+.pm {
+	margin-top: -12px;
+	font-size: 1em !important;
+	font-weight: 400 !important;
+}
+
+.desc {
+	font-size: 15px !important;
+	font-weight: 400 !important;
+}
+
+.savings {
+	font-size: 1.5em;
+	font-weight: 700 !important;
+	color:red;
+	margin-top:-15px;
+}
+
+.btn-pay {
+	transition: all .4s ease-in-out !important;
+	white-space: normal !important;
+	max-width: 90% !important;
+	margin-left: 5% !important;
+}
+
+.btn-important {
+	transition: all .4s ease-in-out !important;
+	white-space: normal !important;
+	background-color: red !important;
+	border-color: red !important;
+	color: white !important;
+	max-width: 90% !important;
+	margin-left: 5% !important;
+}
+
+.btn-important:hover {
+	transform: scale(1.1);
+	background-color: red !important;
+	border-color: red !important;
+	color: white !important;
+}
+
+.btn-pay:hover {
+	background-color: white !important;
+	border-color: red !important;
+	color: red !important;
+	transform: scale(1.1);
+}
+
+.card {
+	border-radius: 0px !important;
+	border-width: thick !important;
+}
+
+.card-important {
+	border-color: red !important;
+}
+
+.benefit-box {
+
+	background-color: #f5f5f5 !important;
+
+}
+
+/*End of pricing table*/
+@media screen and (max-width: 992px) {
+	.priceTop {
+		font-size: 3.5em;
+	}
+}
+
+@media screen and (min-width: 767px) {
+.pop {
+		background-color: red;
+		color:white;
+		position: absolute;
+		left: 0px;
+		right: 0px;
+		top: -40px;
+		width: 100%;
+		padding: 3px 10px 5px;
+		font-weight: 700;
+	
+	}
+	
+	.heroimg {
+		height: 100%;
+	}
+  
+}
+
+@media screen and (min-width: 992px) {
+	
+	.container-sm {
+		max-width: 970px !important;
+	}
+  
+	
+}
+@media screen and (max-width: 900px) {
+	.wannaflix {
+		display: none;
+	}
+	.priceTop {
+		
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.location img {
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+		max-width: 250px !important;
+	}
+	
+	span.img-wrap {
+		float: none;
+		margin-right: 0;
+		text-align: center;
+	}
+	span.txt-wrap {
+		padding-left: 0;
+		text-align: center;
+	}
+	.specialimg {
+		padding-top: 15px;
+	}
+	.usertest .test {
+	padding-bottom: 50px !important;
+	}
+	.card {
+		margin-top: 30px !important;
+	}
+	.pop {
+		background-color: red;
+		color:white;
+		margin: -10px 10% 10px;
+    	text-align: center;
+		padding: 3px 10px 5px;	
+		
+	}
+	
+	.wannaflix{
+	display: none;
+}
+
+.heroimg {
+	background-color:black;
+	background-image: url(/templates/NeWorld/assets/img/nasa-53884-unsplash.jpg);
+	height: initial;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.herotxt {
+	margin: 40px 8% 100px 8%;
+	color: white !important;
+	
+}
+
+.name {
+	font-size: 1.5em !important;
+
+}
+
+.mainHeading {
+	margin-top: 30px !important;
+	color: white !important;
+	font-size: 3.8em !important;
+	font-weight: bold!important;
+	letter-spacing: 2px !important;	
+	text-decoration: none !important;
+}
+
+.subLine {
+	margin-bottom: 30px !important;
+	font-size: 1.3em;
+}
+
+/*.heroimg a:hover {
+	text-decoration: none !important;
+	color: lightgrey;
+}*/
+	
+	#countdown {
+	font-size: 2.5em;
+	color: white;
+	font-weight: bold;
+	
+}
+
+.cdletter {
+	color: white;
+	font-size: 0.7em;
+}
+
+
+.btn-main {
+	margin: 15px 0 10px !important;
+    background-color: yellow !important;
+	color: black !important;
+	font-weight: bold !important;
+	border-color: black !important;
+	border-width: thick !important;
+}
+
+.btn-main:hover {
+  color: black !important;
+}
+
+.grow { transition: all .2s ease-in-out !important; }
+.grow:hover { transform: scale(1.1) !important; }
+
+#share-buttons {
+	margin-top: 50px !important;
+}
+
+#share-buttons img {
+width: 60px;
+padding: 10px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+
+.priceTop {
+	position: absolute !important;
+	margin-left: 75% !important;
+	margin-top: -0px !important;
+	color: yellow !important;
+	font-size: 3em !important;
+	border-style: solid !important;
+	border-width: 3px !important;
+	border-color: yellow !important;
+	padding: 10px 20px !important;
+	background: black !important;
+}
+
+.dollar {
+	font-size: 0.5em !important;
+}
+
+.time {
+	font-size: 0.5em !important;
+}
+	
+	.mainFeature {
+		padding-top: 30px !important;
+		
+	}
+	.mainFeatureContainer {
+		margin-top: 70px !important;
+	}
+	
+}
+
+
+@media screen and (max-width: 550px) {
+	
+	.priceTop {
+	position: relative !important;
+	margin-left: inherit !important;
+	margin-top: -10px !important;
+	color: yellow !important;
+	font-size: 3.5em !important;
+	border-style: none !important;
+	border-width: 3px !important;
+	border-color: yellow !important;
+	padding: 0px 20px !important;
+	background: none !important;
+}
+}
+
+
+

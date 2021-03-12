@@ -1,0 +1,369 @@
+h2 {
+	font-size: 33px !important;
+}
+
+.section {
+	padding: 100px 0px;
+}
+
+.top-title {
+	padding: 20px 0px 50px;
+}
+
+
+
+
+
+/*Pricing box*/
+
+.pricing {
+	margin-bottom: 15px;
+}
+
+
+
+.name {
+	font-size: 1.4em;
+	font-weight: 700 !important;
+	
+}
+
+.price {
+	color:darkslategrey;
+	font-size: 42px !important;
+	font-weight: 700 !important;
+}
+
+.pm {
+	margin-top: -12px;
+	font-size: 1em !important;
+	font-weight: 400 !important;
+}
+
+.desc {
+	font-size: 15px !important;
+	font-weight: 400 !important;
+}
+
+.savings {
+	font-size: 1.5em;
+	font-weight: 700 !important;
+	color:red;
+	margin-top:-15px;
+}
+
+.btn-pay {
+	transition: all .4s ease-in-out !important;
+	white-space: normal !important;
+	max-width: 90% !important;
+	margin-left: 5% !important;
+}
+
+.btn-important {
+	transition: all .4s ease-in-out !important;
+	white-space: normal !important;
+	background-color: red !important;
+	border-color: red !important;
+	color: white !important;
+	max-width: 90% !important;
+	margin-left: 5% !important;
+}
+
+.btn-important:hover {
+	transform: scale(1.1);
+	background-color: red !important;
+	border-color: red !important;
+	color: white !important;
+}
+
+.btn-pay:hover {
+	background-color: white !important;
+	border-color: red !important;
+	color: red !important;
+	transform: scale(1.1);
+}
+
+.card {
+	border-radius: 0px !important;
+	border-width: thick !important;
+}
+
+.card-important {
+	border-color: red !important;
+}
+
+/*End of pricing table*/
+
+
+.heroimg {
+	background-color: lightgrey;
+	background-image: url("assets/hero.jpg");
+	height: initial;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.herotxt {
+	margin: 50px 8% 50px 8%;
+}
+
+.mainbenefits {
+	background-color: #F6F9FE;
+	padding: 30px 0px 30px 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.mainbenefits .bnimg {
+	opacity: 0.7;
+}
+
+
+.benlist {
+	padding: 80px 0px 50px 0px;
+}
+
+.benlist .row {
+	margin-bottom: 40px;
+}
+
+.icon-wrap {
+	padding: 5px 0px 5px 0px;	
+}
+
+span.img-wrap {
+	float: none !important;
+	margin-right: 0;
+	text-align: center !important;
+}
+span.txt-wrap {
+	padding-left: 0;
+	text-align: center;
+}
+
+.worldmap {
+	background: linear-gradient(0deg,rgba(228,228,228,0.48),rgba(228,228,228,0.48)), url("assets/world-map.svg");
+	height: initial;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 50px 50px 70px;	
+}
+
+.testimonials {
+	margin: 50px 0px 0px;
+}
+
+.testimonials .txt {
+	padding: 30px 0px 0px;
+	
+}
+
+.testimonials .comment {
+	font-size: 1.5em;
+	color: grey;
+}
+
+.testimonials .person {
+	font-size: 1.3em;
+	color: grey;
+}
+
+.testimonials .usert {
+	font-family: arial;
+}
+
+.testimonials .user {
+	font-size: 1.2em;
+	color: grey;
+}
+
+.testimonials .logo {
+	margin-bottom: 20px;
+}
+
+.usertest {
+	background-color: whitesmoke;
+	padding: 70px 0px 70px;
+}
+
+.usertest .quotes {
+	opacity: 0.3;
+}
+
+.usertest .test {
+	padding-bottom: 20px;
+} 
+
+/*.testimonials .txt {
+	padding: 30px 0px 0px;
+	
+}
+.testimonials .comment {
+	font-size: 1.5em;
+	color: grey;
+	font-family: 'arial';
+	padding: 20px 0 0;
+}
+
+.testimonials .person {
+	font-size: 1.3em;
+	color: grey;
+}
+
+
+.usert {
+	font-size: 16px !important;
+	font-weight: 300;
+	
+}
+
+.testimonials .user {
+	font-size: 20px !important;
+	color: white;
+	font-weight: 600 !important;
+}
+
+.job {
+	font-size: 15px;
+	font-weight: 300;
+	color: grey;
+	text-transform: uppercase;
+	margin: 10px 0;
+	font-family: 'Roboto Slab', serif;
+	letter-spacing: 3px;
+}
+
+.usertest {
+	background-color: #000000;
+	padding: 90px 0px;
+	color: white;
+}
+
+.usertest .test {
+	padding-bottom: 50px;
+}
+
+.usertest i {
+	color: grey;
+	margin: 20px 0 !important;
+}
+
+.usertest h2 {
+	font-size: 65px !important;
+	font-weight: 600 !important;
+	margin: 0 0 10px !important;
+}*/
+
+.gr-img {
+	margin:0px 0px 20px;
+}
+
+.money-back {
+	padding: 50px 0px 70px;
+}
+
+.money-back h2 {
+	font-family: Helvetica; 
+	font-size: 2.5em !important;
+	opacity: 0.8;
+}
+
+.alert {
+	background-color: #FFD8D9;
+	color: #530000;
+	padding-bottom: 0px !important;
+
+}
+
+.benefit-box {
+	margin-bottom: 20px;
+ 	background-color: whitesmoke;
+  	padding: 0px 0px 0px 0px !important;
+}
+
+
+.benefit-box .benefit {
+	margin-left: 24px;
+	margin-top: -25px;
+}
+
+.check {
+	float: left !important;
+}
+
+#accordion {
+	margin: 70px auto 50px;
+	max-width: 80% !important;
+	align-content: center; 
+}
+
+.btn-link {
+	color: black !important;
+	font-weight: bold !important;
+	padding-left: 20px !important;
+  	white-space:normal !important;
+    word-wrap: break-word;
+}
+
+
+
+@media screen and (min-width: 992px) {
+	.container {
+		max-width: 80% !important;
+	}
+
+}
+
+@media screen and (min-width: 767px){
+	.pop {
+		background-color: red;
+		color:white;
+		position: absolute;
+		left: 0px;
+		right: 0px;
+		top: -40px;
+		width: 100%;
+		padding: 3px 10px 5px;
+		font-weight: 700;
+	
+	}
+  
+}
+
+@media screen and (max-width: 767px) {
+	
+	
+	span.img-wrap {
+		float: none;
+		margin-right: 0;
+		text-align: center;
+	}
+	span.txt-wrap {
+		padding-left: 0;
+		text-align: center;
+	}
+	.specialimg {
+		padding-top: 15px;
+	}
+	.usertest .test {
+	padding-bottom: 50px !important;
+	}
+	.card {
+		margin-top: 30px !important;
+	}
+	.pop {
+		background-color: red;
+		color:white;
+		margin: -10px 10% 10px;
+    	text-align: center;
+		padding: 3px 10px 5px;
+		
+		
+	}
+
+}
+
+
+
