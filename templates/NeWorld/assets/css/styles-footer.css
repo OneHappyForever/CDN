@@ -1,0 +1,31 @@
+.footer {
+	padding: 30px 0 50px;
+	background-color: #1D1D1D;
+	color: #C10000;
+	font-weight: 300;
+	line-height: 2;
+	
+}
+
+.footer .row {
+	margin: 10px 0 50px !important;
+}
+
+.footer a {
+	color: #E1E1E1;
+}
+
+.footer a:hover {
+	color: #FF0000;
+	text-decoration: none !important;
+}
+
+.footer p {
+	color: #727272;
+	font-size: 0.9em;
+	font-weight: 300;
+}
+
+
+
+
