@@ -1,0 +1,987 @@
+/* Responsive media Queryes */
+@media screen and (max-width: 1920px) {
+    
+}
+@media screen and (max-width: 1400px) {
+    .add-ons label {
+        padding: 25px 24px 40px;
+    }
+    .oredr-summary.fixed {
+        width: auto;
+        /* max-width: 454px;
+        min-width: 454px; */
+    }
+    .pri-det {
+        padding: 0 15px;
+        width: 75%;
+    }
+}
+@media only screen and (min-width: 1361px) and (max-width: 1600px) {
+    .prodWgs .intel_box .chk-note {
+        max-width: 65%;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .intel_box .check_box .price{
+        display: inherit;
+    }
+}
+@media screen and (max-width: 1360px) {
+/* .oredr-summary.fixed {max-width: 426px;min-width: 426px;} */
+    .prodWgs .intel_box .chk-note {
+        padding: 2px 0px 2px 20px;
+        max-width: 74%;
+        line-height: 14px;
+        width: 100%;
+    }
+    .intel_box .check_box .price{
+        display: inherit;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .intel_box .check_box ul.ram-box li {
+        padding: 0 0 12px 24px;
+        font-size: 13px;
+    }
+    .order-row h6 {
+        width: 100%;
+        padding-right: 10px;
+    }
+    .domain-reg-info p {
+        font-size: 15px;
+    }
+    .add-ons label {
+        padding: 25px 15px 30px;
+    }
+    .img_box h3 {
+        font-size: 13px;
+        line-height: 16px;
+        margin: 0px 0 15px;
+    }
+    .hosting-box {
+        padding: 24px 14px;
+    }
+    .apply-box a {
+        max-width: 100px;
+    }
+    .add-ons label {
+        padding: 25px 0px 30px;
+    }
+    .domain-name-container h3 {
+        max-width: 62%;
+    }
+    .hosting-box h5 {
+        font-size: 14px;
+    }
+    /* .oredr-summary.fixed {
+        max-width: 386px;
+        min-width: 386px;
+    } */
+}
+
+
+@media screen and (max-width: 1024px) {
+    .intel_box .check_box ul.ram-box {
+        margin: 16px 0 0;
+    }
+    .intel_box .check_box label .Xeon {
+        padding: 20px 15px;
+    }
+    .intel_box .check_box .price span {
+        font-size: 19px;
+    }
+    .choose-plan-wrapper, .Add-ons-wrapper, 
+    .choose-pla-wrapper,  .choose-billing-wrapper {
+        padding: 30px 30px;
+    }
+    .input-search-container {
+        padding: 24px 27px 30px;
+    }
+    .oredr-summary h3 {
+        font-size: 19px;
+        margin: 6px 0 15px;
+    }
+    .hosting-box {
+        padding: 24px 10px;
+    }
+    .order-row.tex-row {
+        padding: 12px 5px;
+    }
+    .order-row h6 {
+        font-size: 14px;
+    }
+    .order-row.tex-row.cost h6 {
+        font-size: 20px;
+    }
+    .order-row.tex-row p {
+        font-size: 14px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .input-search-domain .input-search-box {
+        width: 100%;
+    }
+    .input-search-box input {
+        width: 100%;
+    }
+    .pri-det {
+        padding: 0 8px 0 15px;
+    }
+    .pri-det ul.ram-box {
+        margin: 10px 0 0;
+    }
+    .hosting-box h5 {
+        font-size: 16px;
+    }
+    div#exTab2 .nav-tabs li {
+        width: 45%;
+    }
+    label.form-check-label {
+        font-size: 14px;
+        padding-left: 23px;
+    }
+    .check_box .price span {
+        width: 100%;
+    }
+    .pri-det {
+        width: 70%;
+    }
+}
+ @media (max-width: 1200px) {
+/*start lagom*/
+ .lagom button.bttn, button.close {
+        display: block;
+    }
+.lagom .oredr-summary {
+    padding: 24px 15px;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    background-color: #fff;
+    width: 80%;
+    opacity: 0;
+    visibility: visible;
+    transition: all 0.5s ease-in-out 0s;
+}
+.lagom .oredr-summary.main {
+    position: fixed;
+    right: 0%;
+    display: block;
+    transition: all 0.5s ease-in-out 0s;
+    opacity: 1;
+    visibility: visible;
+    z-index: 2;
+    max-height: 100%;
+}
+.lagom .col-sm-12.col-md-8.p-0 {
+    width: 100%;
+}
+/*end lagom*/
+/*start clientx */
+.no-cartx button.bttn, button.close {
+        display: block;
+    }
+.no-cartx .oredr-summary {
+    padding: 24px 15px;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    background-color: #fff;
+    width: 80%;
+    opacity: 0;
+    visibility: visible;
+    transition: all 0.5s ease-in-out 0s;
+    z-index: -1;
+}
+.no-cartx .oredr-summary.main {
+    position: fixed;
+    right: 0%;
+    display: block;
+    transition: all 0.5s ease-in-out 0s;
+    opacity: 1;
+    visibility: visible;
+    z-index: 2;
+    max-height: 100%;
+}
+.no-cartx .col-sm-12.col-md-8.p-0 {
+    width: 100%;
+}
+/*end clientx */
+}
+ @media (max-width: 991px) {
+    .intel_box {
+        margin-bottom: 20px;
+    }
+    button.add-to-cart-btn {
+        width: 106px;
+    }
+    .domain-name-container h3 {
+        max-width: 52%;
+    }
+    .hosting-box {
+        padding: 24px 2px;
+    }
+    .hosting-box h5 {
+        font-size: 13px;
+    }
+    button.add-to-cart-btn {
+        width: 126px;
+    }
+    .addon-domain {
+        float: none;
+        width: 100%;
+        margin: 0 0 2%;
+        clear: both;
+    }
+    
+
+     {
+        display: block;
+    }
+    .oredr-summary {
+        padding: 24px 15px;
+        position: fixed;
+        top: 0px;
+        right: -100%;
+        background-color: #fff;
+        width: 80%;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.5s ease-in-out 0s;
+    }
+    .oredr-summary.main {
+        position: fixed;
+        right: 0%;
+        display: block;
+        transition: all 0.5s ease-in-out 0s;
+        opacity: 1;
+        visibility: visible;
+        z-index: 2;
+        max-height: 100%;
+    }
+    .oredr-summary.fixed {
+        width: 80%;
+        transition: all 0.5s ease-in-out 0s;
+    }
+    .row.host {
+        margin: 0px -8px 0px;
+    }
+    .apply-box input {
+        width: 73%;
+    }
+    .apply-box a {
+        margin: 0px 0 0;
+    }
+    .apply-box {
+        display: flex;
+        margin: 0 auto 20px;
+    }
+    .m-t30 {
+        margin-top: 0;
+    }
+    .order-row.tex-row {
+        border-top: 0px solid #e6e8eb;
+        border-bottom: 0px solid #e6e8eb;
+    }
+    #productBoxWgs .check_box .price {
+        display: inline-block;
+        width: 100%;
+    }
+    .already-registered.clearfix {
+        padding: 10px;
+    }
+    .panel-group.newUser .sub-heading span, .panel-group.existingUser .sub-heading-borderless span {
+        font-size: 17px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        display: inherit;
+    }
+    .panel-group.newUser .text-muted, .panel-group.existingUser .text-muted {
+        color: #777;
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+	/* lagom */
+	.lagom section.main-wrapper {
+		top: 85px;
+		position: relative;
+	}
+
+	
+	
+   
+ }
+
+ @media only screen and (min-width: 991px) and (max-width: 1200px) {
+/* start lagom */
+ .lagom #paymentGatewaysContainer .nav>li>a>img {
+    margin: 0 auto;
+    max-width: 80px;
+    width: auto;
+}
+.lagom .apply-box input {
+    padding: 0px 6px 0px 33px;
+    font-size: 13px;
+}
+/* end lagom */
+/* start clientx  */
+ .no-cartx #paymentGatewaysContainer .nav>li>a>img {
+    margin: 0 auto;
+    max-width: 80px;
+    width: auto;
+}
+.no-cartx .apply-box input {
+    padding: 0px 6px 0px 33px;
+    font-size: 13px;
+}
+/* end clientx */
+..no-cartx .check_box .price span.month {
+    width: 100%;
+    float: none;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    left: inherit;
+}
+..no-cartx .check_box .price small {
+    text-align: center;
+    float: none;
+    width: 100%;
+}
+}
+@media only screen and (min-width: 991px) and (max-width: 1400px) {
+/* start lagom */
+.lagom .prodWgs.slick-initialized .slick-slide {
+    padding-top: 5px;
+   /* width: 50%!important;*/
+}
+.lagom .prodWgs .intel_box .check_box label .xeon {
+    padding: 25px 6px;
+}
+.lagom .intel_box .check_box span.ram-box li {
+    font-size: 13px;
+    line-height: 19px;
+    padding: 0 0 18px 17px;
+}
+.lagom .input-search-box {
+    width: 100%;
+}
+.lagom .input-search-box input{
+    width: 100%;
+}
+.lagom .intel_box .check_box span.ram-box {
+    margin: 15px 0 0;
+}
+.lagom .prodWgs .intel_box .check_box label .xeon {
+    height: 200px;
+}
+.lagom .order-row.tex-row {
+    padding: 14px 2px;
+}
+.lagom .order-row.tex-row p {
+    font-size: 12px;
+}
+.lagom .order-row.tex-row.cost h6 {
+    font-size: 17px;
+}
+.lagom .check_box .price span.month {width: 100%;float: none;text-align: center;padding: 0;margin: 0 auto;left: inherit;}
+.lagom .check_box .price small {text-align: center;float: none;width: 100%;}
+/* end lagom */
+/*start clientx */
+/*.no-cartx .prodWgs.slick-initialized .slick-slide {
+    padding-top: 5px;
+    width: 50%!important;
+}*/
+.no-cartx .prodWgs .intel_box .check_box label .xeon {
+    padding: 25px 6px;
+}
+.no-cartx .intel_box .check_box span.ram-box li {
+    font-size: 13px;
+    line-height: 19px;
+    padding: 0 0 18px 17px;
+}
+.no-cartx .input-search-box {
+    width: 100%;
+}
+.no-cartx .input-search-box input{
+    width: 100%;
+}
+.no-cartx .check_box .price span.month {width: 100%;float: none;text-align: center;padding: 0;margin: 0 auto;left: inherit;}
+.no-cartx .check_box .price small {text-align: center;float: none;width: 100%;}
+/*end clientx */
+}
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+ .row.wgs-domain-res {
+        width: 100%;
+    }
+    .row.wgs-domain-res .col-md-4 {
+        width: 33.333%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .domain-available-container .wgs-domain-res h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .domain-available-container .wgs-domain-res h2 {
+        font-size: 20px;
+    }
+    .prodWgs .intel_box .check_box label .xeon{
+        padding: 2px 0px 2px 10px;
+    }
+    .prodWgs .intel_box .chk-note {
+        padding: 2px 0px 2px 10px;
+    }
+    /*start clientx */
+    .no-cartx .slick-list.draggable .slick-track{
+        width: 100%;
+    }
+    .no-cartx .prodWgs.slick-initialized .slick-slide {
+       /* width: 48%!important;*/
+    }
+    .no-cartx .check_box .price span.month {width: 100%;float: none;text-align: center;padding: 0;margin: 0 auto;left: inherit;}
+    .no-cartx .check_box .price small {text-align: center;float: none;width: 100%;}
+    /*end clientx */
+     /*lagom*/
+    .lagom .check_box .price span.month {width: 100%;float: none;text-align: center;padding: 0;margin: 0 auto;left: inherit;}
+    .lagom .check_box .price small {text-align: center;float: none;width: 100%;}
+    /*lagom*/
+    .check_box .price {width: 100%!important;}
+}
+@media (min-width: 768px){
+	#modalRemoveItem .modal-dialog,#modalEmptyCartWgs .modal-dialog {
+		width: 420px;
+		margin: 30px auto;
+	}
+	.currency-domain-div {
+		margin: 0 auto 15px;
+	}	
+}
+@media screen and (max-width: 767px) {
+    .oredr-summary.fixed {
+        width: 90%;
+        transition: all 1.4s ease-in-out 0s;
+    }
+    .row.outer.margin-top {
+        margin-top: 0;
+    }
+    .check_box {
+        margin-bottom: 20px;
+    }
+    .col-sm-4 {
+        float: left;
+        width: 33%;
+    }
+    .col-sm-3 {
+        float: left;
+        width: 25%;
+    }
+    .apply-box a {
+        max-width: 100px;
+    }
+    div#right-box {
+        width: 100%;
+        position: unset;
+    }
+    .row.host .col-sm-6 {
+        padding: 0 9px;
+        float: left;
+        width: 50%;
+    }
+    div#exTab2 .nav-tabs li {
+        width: 47%;
+    }
+    div#wrapper .row .p-0 {
+        padding: 0 15px;
+    }
+    .domain-name-container h3 {
+        max-width: 58%;
+    }
+    .choose-plan-wrapper .form-control {
+        font-size: 13px;
+    }
+    button.add-to-cart-btn {
+        width: 105px;
+    }
+    .domain-name-with-price h4 {
+        margin: 0 0 0px;
+    }
+    .domain-name-with-price .left-img {
+        min-height: 80px;
+    }
+    .intel_box {
+        margin-bottom: 0;
+    }
+    .check_box .price span {
+        width: 135px;
+    }
+    /*cart-responsive-11-7-19*/
+    .domain-available-container {
+        padding: 30px 15px 15px;
+    }
+    .row.wgs-domain-res {
+        text-align: center;
+    }
+    .domain-available-container .wgs-domain-res h3 {
+        float:none;
+    }
+    .domain-available-container .wgs-domain-res h2 {
+        margin: 10px 0 10px;
+        font-size: 28px;
+        line-height: normal;
+        float:none;
+    }
+   
+    .wgs-domain-res button.add-to-cart-btn {
+        float: none;
+        width: auto;
+        padding: 0px 20px;
+    }
+    .domain-available-container p{
+        text-align:center;
+    }
+    .domain-result-box button.add-to-cart-btn {
+        width: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        white-space: nowrap;
+    }
+    .coose-domain-container ul li label {
+        width: 93%;
+        padding-left: 0px;
+        display: inline-block;
+        margin-left: 0px;
+    }
+    .domain-suggestion .domain-name-container h2 {
+        font-size: 20px;
+        padding-top: 8px;
+        padding-bottom: 0px;
+        margin: 0px 5px;
+    }
+    .choose-plan-container .choose-plan-wrapper .form-control{
+        max-width: 100%;
+    }
+    .intel_box .check_box label .xeon {
+        max-height: 259px;
+        overflow-y: scroll;
+    }
+    #productBoxWgs .check_box .price {
+        display: inline-block;
+        width: 100%;
+    }
+    .newUser  .social-signin-btns .btn {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        padding-left: 12px;
+    }
+    .existingUser .social-signin-btns .btn {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        padding-left: 12px;
+    }
+    .login-details.create-account {
+        margin: 15px 0 0;
+    }
+    .panel-group.newUser .sub-heading span, .panel-group.existingUser .sub-heading-borderless span {
+        font-size: 17px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        display: inherit;
+    }
+    .panel-group.newUser .text-muted, .panel-group.existingUser .text-muted {
+        color: #777;
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .input-search-domain input#tldsearchText {
+        border: none;
+    }
+    .domain-result-box p.transferWg button {
+        display: block;
+        clear: both;
+        margin: 10px auto 0;
+        text-align: center;
+        position: relative;
+        justify-content: center;
+        float: none;
+    }
+    .row.wgs-domain-custom-field .form-control {
+        margin: 3px 0;
+        display: inline;
+    }
+    .already-registered.clearfix {
+        text-align: center;
+        margin: 16px 0;
+    }
+    .already-registered.clearfix div.pull-right {
+        clear: both;
+        float: none!important;
+    }
+    .existing-customer-container .already-registered.clearfix p {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+	#btnDomainManages {
+		display: table;
+		margin: 0 auto 10px;
+		float: none!important;
+		text-align: center;
+	}
+	.frm-right {
+		float: none;
+		margin: 0 auto 10px;
+	}
+	.col-sm-6.no-space .col-sm-6.text-right {
+		text-align: center;
+	}
+	.currency-domain-div {
+		margin: 0 auto 15px;
+	}
+	.currency-domain-div form {
+		max-width: 238px;
+		margin: 0 auto;
+	}
+	/*6-12-19*/
+	#paymentGatewaysContainer .nav>li>a>img {
+		max-width: 100%;
+		display: inline-block;
+		text-align: center;
+	}
+	.no-cartx .oredr-summary.fixed {
+		top: 0;
+	}
+	.right-content .col-sm-6.col-md-4.billing_box {
+		ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	#modalRemoveItem .modal-dialog, #modalEmptyCartWgs .modal-dialog {
+		 width: 80%;
+		margin: 0 auto;
+	}
+	#modalRemoveItem, #modalEmptyCartWgs {
+		z-index: 9999999999;
+	}
+    .check_box .price {
+        width: 100%!important;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+    /*start cart-responsive-11-7-19*/
+    .coose-domain-container ul li {
+        display: flex;
+    }
+    .domain-result-box .domain-name-container{
+        display: inline-block;
+        text-align: left;
+        width: 100%;
+    }
+    .domain-suggestion .domain-name-container h3 {
+        max-width: 100%;
+    }
+    .domain-suggestion .domain-name-container h2 {
+        text-align: left;
+        line-height: normal;
+        margin: 4px 0 8px;
+    }
+    #wgs_promo_wraper .myCheckbox .lab-text {
+        margin-left:0px;
+        font-size: 12px;
+    }
+    #wgs_promo_wraper.protect-wrapper ul li input {
+         width: 15px;
+        height: 15px;
+        margin-right: -2px;
+        vertical-align: text-bottom;
+    }
+    #wgs_promo_wraper .myCheckbox span.pull-right {
+        font-size: 12px;
+        float: right;
+        right: 0px;
+        margin-top: 3px;
+    }
+    .domain-name-with-price .left-img {
+        min-height: auto;
+    }
+    /*end cart-responsive-11-7-19*/
+    .col-sm-3, .col-sm-4 {
+        float: left;
+        width: 100%;
+    }
+    div#exTab2 .nav-tabs li {
+        width: 100%;
+    }
+    div#exTab2 .nav-tabs li.cred {
+        margin-right: 20px;
+    }
+    h4.m-cl {
+        display: inline-block;
+        width: 100%;
+        padding: 20px 0 10px;
+    }
+    .nameservers-container-inner .form-group, 
+    .login-details .form-group {
+        width: 100%;
+        margin-right: 0;
+    }
+    .addon-domain {
+        width: 100%;
+        margin: 0 0 2%;
+    }
+    .coose-domain-container h2 {
+        padding: 5px 30px 10px;
+    }
+    .input-search-container {
+        padding: 15px 27px 30px;
+    }
+    .domain-available-container h2 {
+        font-size: 42px;
+    }
+    .domain-available-container h2 sup {
+        top: -14px;
+    }
+    .domain-name-container h3 {
+        max-width: 46%;
+    }
+    .myCheckbox .lab-text {
+        font-size: 12px;
+    }
+    .oredr-summary.main {
+        max-height: calc(100vh - 14px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .row.wgs-domain-row-section{
+       display: inline-block;
+       width: 100%;
+    }
+    .order-row.tex-row.cost h6 {
+        font-size: 15px;
+    }
+    .col-sm-4.item-price span {
+        clear: both;
+        display: block;
+    }
+    .row.wgs-domain-row-section a.remove {
+        padding: 4px 15px;
+    }
+    .main-wrapper h2 {
+       font-size: 15px;
+    }
+    .choose-configurable-wrapper {
+      padding: 40px 20px;
+    }
+    .additional-nots .form-group {
+        display: inline-block;
+        width: 100%;
+    }
+    .additional-nots .form-group button.btn.btn-primary {
+        margin: 20px 0 0;
+    }
+    .oredr-summary.fixed {
+        padding: 25px 15px;
+    }
+    .pri-det ul.ram-box li {
+        font-size: 13px;
+        color: #3c3c3c;
+    }
+    .domain-name-container {
+        display: inline-block;
+        width: 100%;
+        padding: 26px 24px 26px 30px;
+    }
+    .domain-name-container h3 {
+        max-width: 100%;
+    }
+    .domain-name-container h2 {
+        font-size: 16px;
+        width: 100%;
+        text-align: left;
+        padding-top: 10px;
+        padding-bottom: 12px;
+    }
+    button.add-to-cart-btn {
+        height: 30px;
+    }
+    .domain-available-container h3 {
+        float: none;
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    .domain-available-container h2 {
+        float: none;
+        top: 10px;
+    }
+    .coose-domain-container ul li label {
+        width: 90%;
+        vertical-align: text-top;
+        margin: 0;
+        padding-left: 10px;
+    }
+    .coose-domain-container ul li input {
+        vertical-align: top;
+    }
+    .input-search-domain select {
+        width: 130px;
+    }
+    .input-search-box input {
+        padding-left: 15px;
+    }
+    .domain-name-with-price .panel-heading h5 {
+        position: inherit;
+        padding: 0px;
+    }
+    div#exTab2 .nav-tabs li {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+    .protect-wrapper {
+        padding: 30px 15px 12px;
+    }
+    .protect-wrapper .panel-heading a img {
+        max-width: 40px;
+		height:auto;
+    }
+    .protect-wrapper .panel-body p {
+        font-size: 14px;
+    }
+    .protect-wrapper .panel-body ul li {
+        display: inline-block;
+        width: 100%;
+    }
+    span.price-yr {
+        float: none;
+        position: inherit;
+        display: block;
+        padding: 3px 53px;
+    }
+    /*.check_box .price {
+      padding: 25px 15px;
+    }*/
+    
+    .domain-name-with-price .panel-heading p {
+        margin: 4px 0 5px;
+    }
+    section.main-wrapper {
+        padding: 15px 0;
+    }
+    .domain-reg-info h2 {
+        font-size: 15px;
+    }
+    .domain-reg-info p {
+        font-size: 13px;
+    }
+    .domain-reg-info select.form-control {
+        font-size: 13px;
+    }
+	/*lagom*/
+	.lagom section.main-wrapper {
+    padding: 15px 0 20px;
+	}
+	section#header .logo-text {
+		font-size: 2em;
+		white-space: inherit;
+		clear: both;
+		width: 100%;
+		float: none;
+		display: block;
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 360px) {
+    .check_box .price span {
+        width: 105px;
+    }
+    .protect-wrapper .panel-heading a {
+        font-size: 12px;
+    }
+    .coose-domain-container ul li label {
+        font-size: 13px;
+    }
+    .input-search-box input, 
+    .input-search-domain select  {
+        font-size: 15px;
+    }
+    .check_box .price {
+        display: flex;
+    }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+.domain-available-container h3{font-size: 20px;word-break: break-all;line-height: 24px;}
+.domain-available-container .wgs-domain-res h2{font-size: 20px;}
+.order-row.tex-row.cost h6 {font-size: 20px;}
+
+/*lagom*/
+    .lagom .oredr-summary.fixed {width: auto;max-width: 100%;}
+    .lagom .check_box .price span.month {width: 100%;float: none;text-align: center;padding: 0;margin: 0 auto;left: inherit;}
+    .lagom .check_box .price small {text-align: center;float: none;width: 100%;}
+/*lagom*/
+/*clientx*/
+    .no-cartx .oredr-summary.fixed {width: auto;max-width: 100%;}
+    .no-cartx .check_box .price span.month {width: 100%;float: none;text-align: center;padding: 0;margin: 0 auto;left: inherit;}
+    .no-cartx .check_box .price small {text-align: center;float: none;width: 100%;}
+/*clientx*/
+
+}
+@media only screen and (min-width: 1400px) and (max-width: 1700px) {
+/*clientx*/
+.no-cartx .oredr-summary.fixed {
+    right: inherit;
+    max-width:inherit;
+    width: auto;
+}
+/*clientx*/
+.check_box .price {
+    width: 100%;
+    padding: 25px 8px;
+    width: 100%;
+    display: flex;
+}
+.check_box .price span.month {
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 5px;
+    width: 82px;
+}
+.check_box .price small {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    width: 56%;
+}
+}
+@media screen and (min-width: 1701px) {
+/*Lagom*/
+    .check_box .price span.month {
+    font-size: 16px;
+    padding-right: 10px;
+    width: 102px;
+}
+.check_box .price small {
+    font-size: 14px;
+    width: 100px;
+}
+/*end Lagom*/
+}
+@media screen and (min-width: 1400px) {
+/*Lagom*/
+body.lagom .oredr-summary.fixed {
+    top: 45px;
+    right: inherit;
+    max-width: 380px;
+    width: 100%;
+}
+.lagom .check_box .price {
+    width: 100%;
+    padding: 25px 7px;
+}
+/*end Lagom*/
+
+}

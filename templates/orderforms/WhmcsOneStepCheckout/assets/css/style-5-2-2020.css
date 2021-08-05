@@ -1,0 +1,2663 @@
+/*****************************  
+    Font-Family
+*****************************/
+h1,h2,h3,h4,h5,h6,p,ul,li,p,body{margin: 0px;padding:0px;}
+
+body.check-out {
+    background-color: #f5f5f6;
+}
+
+@font-face {
+  font-family: 'CamphorPro-Regular';
+  src: url('../fonts/CamphorPro-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/CamphorPro-Regular.woff') format('woff'),
+  url('../fonts/CamphorPro-Regular.ttf')  format('truetype'),
+  url('../fonts/CamphorPro-Regular.svg#CamphorPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CamphorPro-Light';
+  src: url('../fonts/CamphorPro-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/CamphorPro-Light.woff') format('woff'),
+  url('../fonts/CamphorPro-Light.ttf')  format('truetype'),
+  url('../fonts/CamphorPro-Light.svg#CamphorPro-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CamphorStd-Bold';
+  src: url('../fonts/CamphorStd-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/CamphorStd-Bold.woff') format('woff'),
+  url('../fonts/CamphorStd-Bold.ttf')  format('truetype'),
+  url('../fonts/CamphorStd-Bold.svg#CamphorStd-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'CamphorW01';
+    src: url('../fonts/CamphorW01-Medium.eot');
+    src: url('../fonts/CamphorW01-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CamphorW01-Medium.woff') format('woff'),
+        url('../fonts/CamphorW01-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'CamphorPro-Heavy';
+  src: url('../fonts/CamphorPro-Heavy.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/CamphorPro-Heavy.woff') format('woff'),
+  url('../fonts/CamphorPro-Heavy.ttf')  format('truetype'),
+  url('../fonts/CamphorPro-Heavy.svg#CamphorPro-Heavy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CamphorW01-Medium';
+  src: url('../fonts/CamphorW01-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/CamphorW01-Medium.woff') format('woff'),
+  url('../fonts/CamphorW01-Medium.ttf')  format('truetype'),
+  url('../fonts/CamphorW01-Medium.svg#CamphorW01-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/*****************************  
+    Container Max-width
+*****************************/
+
+.container {
+    width: 100%;
+    max-width: 1426px;
+}
+
+section.main-wrapper {
+    display: inline-block;
+    width: 100%;
+    padding: 70px 0 0;
+    overflow: hidden;
+}
+div#wrapper {
+    /* box-shadow: 0 0 5px rgba(0,0,0,0.13); */
+    background-color: transparent;
+    position: relative;
+}
+div#wrapper .row .p-0 {
+    padding: 0 10px !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*****************************  
+    Choose Your Plan
+*****************************/
+
+.choose-plan-wrapper {
+    float: left;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #ecedee;
+    padding: 42px 30px;
+    border-bottom: 1px solid #ecedee;
+    background-color: #ffffff;
+}
+.main-wrapper h2 {
+    font-size: 17px;
+    line-height: 19px;
+    font-weight: 500;
+    color: #293042;
+    font-family: 'CamphorPro-Heavy';
+    margin: 0;
+    padding: 0 0 25px 0;
+    text-transform: uppercase;
+    text-align: left;
+}
+.choose-plan-wrapper h2, 
+.choose-billing-wrapper h2 {
+    color: #293042;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'CamphorPro-Heavy';
+    text-align: left;
+}
+.choose-plan-wrapper h2 {
+    padding-bottom: 10px;
+}
+
+.choose-plan-wrapper .form-control {
+    height: 44px;
+    border-radius: 5px;
+    background-color: rgba(246,247,248,0);
+    border: 2px solid rgba(182,183,183,0.26);
+    font-size: 16px;
+    color: #525f7f;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(../images/select-img.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    max-width: 370px;
+    font-family: 'CamphorW01-Medium';
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+}
+
+/*****************************  
+    Choose Billing Cycle
+*****************************/
+.choose-billing-wrapper {
+    padding: 42px 30px;
+    display: inline-block;
+    width: 100%;
+    background-color: #ffffff;
+    border-top: 1px solid #ecedee;
+}
+.row.outer.margin-top {
+    margin-top: 20px;
+}
+div#wrapper .outer .col-sm-4.billing_box {
+    padding: 0 12px;
+}
+.choose-billing-wrapper .check_box {
+    border: 4px solid #fad2c2;
+    display: inline-block;
+    width: 100%;
+    border-radius: 4px;
+    background-color: white;
+    border: 5px solid grey;
+    margin-bottom: 20px;
+}
+input[type="radio"][id^="prod"] {
+    display: none;
+}
+input[type="radio"][id^="billcy"] {
+    display: none;
+}input[type="radio"][id^="ado"] {
+    display: none;
+}
+.billing_box h4 {
+    font-size: 13px;
+    margin: 5px 0 0 0;
+    color: #000;
+    font-family: 'Futura Md BT';
+    font-weight: 500;
+    font-family: 'Futura Bk BT';
+    letter-spacing: 0.2em;
+}
+.check_box.active {
+    background-color: white;
+    border-color: red;
+}
+.check_box.active .price .month,  
+.check_box.active .price small, 
+.check_box.active .price .discount, 
+.check_box.active .price small em {
+    color: #333;
+}
+
+.check_box label {
+    border: none;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 0;
+}
+label:before {
+    background-color: white;
+    color: white;
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 21px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+}
+
+:checked + label::before {
+    content: "✓";
+    background-color: #d0c224;
+    transform: scale(1);
+    /* z-index: 1; */
+}
+.check_box .price {
+    display: inline-block;
+    width: 100%;
+    padding: 25px 10px;
+}
+.check_box .price span.discount {
+    display: block;
+    font-size: 14px;
+    line-height: 19px;
+    color: #525f7f;
+    font-family: 'CamphorPro-Regular';
+    margin: 5px 0 0;
+    font-weight: 500;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 95%;
+    overflow: hidden;
+}
+.check_box .price span.month {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #525f7f;
+    font-family: 'CamphorPro-Heavy';
+    padding-right: 15px;
+    width: 110px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: middle;
+    float: left;
+    left: 0;
+    text-align: left
+}
+.check_box .price small {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #7b91b3;
+    font-family: 'CamphorPro-Regular';
+    text-align: right;
+    float: right;
+	width:116px;
+}
+.check_box .price small em {
+    color: #525f7f;
+    font-style: normal;
+}
+.col-sm-3.billing_box {
+    padding: 0 9px;
+}
+
+/*********************************** 
+    Choose Your Plan Container
+************************************/
+.choose-plan-container, 
+.coose-domain-container {
+    /*border-radius: 4px;*/
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.18);
+    background-color: #ffffff;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+/*****************************  
+    Choose Your Plan
+*****************************/
+.choose-pla-wrapper {
+    float: left;
+    width: 100%;
+    padding: 40px 30px;
+    position: relative;
+    background-color: #fafbfc;
+}
+.choose-pla-wrapper .check_box {
+    border: 4px solid #fad2c2;
+    display: inline-block;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: 2px solid #f0f0f1;
+}
+.intel_box .check_box label .xeon {
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+}
+.intel_box .check_box h3 {
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    color: #525f7f;
+    font-family: 'CamphorPro-Heavy';
+}
+.intel_box .check_box span.ram-box {
+    display: block;
+    margin: 25px 0 0;
+}
+.intel_box .check_box span.ram-box span {
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    color: #7f7f7f;
+    font-family: 'CamphorPro-Regular';
+    font-weight: 600;
+    margin: 0;
+    position: relative;
+    padding: 0 0 24px 24px;
+}
+.intel_box .check_box span.ram-box span:before {
+    content: "\f058";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'FontAwesome';
+    color: #d0c224;
+    font-size: 16px;
+}
+.intel_box .check_box .price {
+    background-color: #e5f1ff;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+	width:100%;
+}
+.intel_box .check_box .price span {
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    color: #338aee;
+    font-family: 'CamphorPro-Heavy';
+    display: block;
+    width: 100%;
+    padding: 0;
+}
+.intel_box .check_box .price del {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    text-decoration: line-through;
+    color: #b8bec5;
+    font-family: 'CamphorPro-Regular';
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+.col-sm-4.intel_box {
+    padding: 0 10px;
+}
+.prodWgs .intel_box .check_box label .xeon {
+    display: inline-block;
+    width: 100%;
+    padding: 25px 20px;
+    overflow: auto;
+    height: 270px;
+}
+.prodWgs.intel_box .check_box span.ram-box {
+    display: block;
+    margin: 25px 0 0;
+    vertical-align: top;
+    overflow: auto;
+}
+button.add-to-cart-btn{
+   white-space: nowrap;
+}
+
+/*****************************  
+    Add Ons Section
+*****************************/
+.Add-ons-wrapper {
+    float: left;
+    width: 100%;
+    padding: 40px 30px;
+    background-color: #fafbfc;
+    border-top: 1px solid #ecedee;
+    border-bottom: 1px solid #ecedee;
+}
+.Add-ons-wrapper .check_box {
+    border: 4px solid #fad2c2;
+    display: inline-block;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: 2px solid #f0f0f1;
+    margin-bottom: 20px;
+}
+.add-ons label {
+    padding: 25px 25px 40px;
+}
+.img_box h3 {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    color: #525f7f;
+    font-family: "CamphorW01";
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px 0 20px;
+}
+.img_box svg {
+    display: block;
+    margin: 0 auto;
+    width: 48px;
+    height: 48px;
+}
+.add-ons .check_box .img_box svg {
+    fill: #044c95;
+}
+.add-ons:nth-child(2) .check_box .img_box svg {
+    fill: #e74e72;
+}
+.add-ons:nth-child(3) .check_box .img_box svg {
+    fill: #d0c224;
+}
+.add-ons:nth-child(4) .check_box .img_box svg {
+    fill: #67b26b;
+}
+.protect-wrapper {
+    float: left;
+    width: 100%;
+    padding: 30px 30px 12px;
+}
+.protect-wrapper .panel {
+    background-color: #fff;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,.05);
+    box-shadow: 0 0px 0px rgba(0,0,0,.05);
+    border: 1px solid #ecedee;
+}
+.protect-wrapper .panel-heading {
+    padding: 15px 15px;
+}
+.protect-wrapper .panel-heading a {
+    display: inline-block;
+    width: 100%;
+    color: #2c3e50;
+    font-size: 16px;
+    font-family: 'CamphorW01-Medium';
+    text-decoration: none;
+    position: relative;
+}
+.protect-wrapper .panel-heading a img {
+    margin-right: 8px;
+}
+.protect-wrapper .panel-heading i {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    transition: all .5s ease;
+}
+.protect-wrapper .panel-heading a i {
+    transform: rotate(180deg);
+}
+.protect-wrapper .panel-heading a.collapsed i {
+    transform: rotate(0deg);
+}
+.protect-wrapper .panel-body p {
+    color: #525f7f;
+    font-size: 17px;
+    font-family: 'CamphorW01-Medium';
+}
+.protect-wrapper .panel-body ul {
+    margin-top: 30px;
+}
+.protect-wrapper .panel-body ul li {
+    list-style: none;
+    margin-top: 17px;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    position: relative;
+}
+.myCheckbox {
+    display: flex;
+}
+.myCheckbox input {
+    z-index: 9;
+    right: -16px;
+    position: relative;
+    opacity: 0;
+    cursor: pointer;
+}
+.myCheckbox i {
+    width: 18px;
+    height: 18px;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    border-radius: 50%;
+    border: 1.5px solid #ddd;
+}
+.myCheckbox input:checked + i:before {
+    /* background: url(../images/input-img-after.png); */
+    content: "\f00c";
+    position: absolute;
+    top: 0;
+    left: 1px;
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #179bd3;
+}
+.myCheckbox .lab-text {
+    margin-left: 10px;
+    color: #525f7f;
+    font-size: 14px;
+    font-family: 'CamphorPro-Light';
+}
+span.price-yr {
+    color: #525f7f;
+    font-size: 14px;
+    font-family: 'CamphorStd-Bold';
+    float: right;
+    position: absolute;
+    right: 13px;
+}
+
+/****************************************  
+        Customer Login Section
+****************************************/
+.existing-customer-container, 
+.domain-reg-info, .additional-nots {
+    border-radius: 3px;
+    background-color: #ffffff;
+    position: relative;
+    margin: 20px 0px;
+    float: left;
+    width: 100%;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.18);
+}
+.existing-customer-container .panel-heading a {
+    font-size: 17px;
+    color: #525f7f;
+    font-family: 'CamphorStd-Bold';
+    text-decoration: none;
+    position: relative;
+    display: block;
+}
+.existing-customer-container .panel-heading a:before {
+    content: "\f078";
+    position: absolute;
+    top: 1px;
+    right: -14px;
+    height: 18px;
+    width: 18px;
+    font-family: 'FontAwesome';
+    transform: rotate(180deg);
+    line-height: 15px;
+    transition: all .5s ease;
+}
+.existing-customer-container .panel-heading a.collapsed:before {
+    transform: rotate(0deg);
+}
+.existing-customer-container .domain-name-with-price .panel-group {
+    padding: 10px 15px;
+}
+.domain-name-with-price .panel-heading a {
+    text-decoration: none;
+}
+.domain-name-with-price .panel-group {
+    border-top: 1px solid #ecedee;
+    padding: 10px 6px;
+    margin-bottom: 0px;
+}
+.domain-name-with-price .panel {
+    border: 0px solid transparent;
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,.05);
+    box-shadow: 0 0px 0px rgba(0,0,0,.05);
+}
+.domain-name-with-price .panel-heading {
+    position: relative;
+}
+.domain-name-with-price .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border: 0px solid transparent;
+}
+.login-details .form-group {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+.login-details .form-group label {
+    color: #525f7f;
+    font-size: 15px;
+    font-family: 'CamphorPro-Regular';
+    font-weight: normal;
+}
+
+.login-details .form-group input {
+    height: 40px;
+    border-radius: 4px;
+    box-shadow: 0 0 0px rgba(0,0,0,0.32);
+    background-color: #ffffff;
+    width: 100%;
+    border: 2px solid #eaeaea;
+}
+.margin-r {
+    margin-right: 0px!important;
+}
+.domain-name-with-price h4 {
+    margin: 0 0 20px;
+    font-size: 15px;
+    color: #525f7f;
+    font-family: 'CamphorStd-Bold';
+    text-decoration: none;
+    display: block;
+}
+h4.m-cl {
+    display: inline-block;
+    width: 100%;
+    border-top: 1px solid #ecedee;
+    margin: 20px 0;
+    padding-top: 22px;
+}
+
+
+/***************************
+    domain-reg-info
+****************************/
+.domain-reg-info {
+    padding: 30px;
+}
+.domain-reg-info h2 {
+    padding-bottom: 12px;
+}
+.domain-reg-info p {
+    color: #525f7f;
+    font-size: 17px;
+    font-family: 'CamphorPro-Regular';
+    font-weight: normal;
+}
+.domain-reg-info select.form-control {
+    font-size: 15px;
+    color: #525f7f;
+    font-family: 'CamphorPro-Regular';
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    margin-top: 18px;
+    padding-left: 17px;
+    background: url(../images/select-contect.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 380px;
+    max-width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border: 2px solid #eaeaea;
+    box-shadow: none;
+    height: auto;
+    padding: 7px 12px;
+}
+
+/****************************************  
+    Payment Method Section Tabs
+****************************************/
+.payment-wrapper {
+    float: left;
+    width: 100%;
+    padding: 40px 16px;
+    background-color: #fafbfc;
+}
+.payment-wrapper h2 {
+  padding: 0 16px;
+} 
+.payment-wrapper .payment-details {
+    margin-top: 20px;
+}
+div#exTab2 .nav-tabs {
+    border: 0;
+    margin-bottom: 40px;
+}
+div#exTab2 .nav-tabs li {
+    width: 30%;
+    text-align: center;
+}
+div#exTab2 .nav-tabs li a {
+    height: 70px;
+    line-height: 50px;
+    border-radius: 4px;
+    border: 2px solid #e2e5ec;
+    background-color: transparent;
+}
+.payment-card-number-box {
+    background-color: #ffffff;
+    border: 1px solid #d4d5d9;
+    float: left;
+    width: 100%;
+}
+.payment-card-number-box input.form-control {
+    color: #939393;
+    font-size: 16px;
+    font-family: 'CamphorPro-Regular';
+    border-radius: 0px;
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+}
+.payment-card-number-box .form-group {
+    margin: 0px;
+}
+.form-group.cart-number input {
+    border: 0px;
+    border-bottom: 1px solid #d4d5d9;
+    height: 60px;
+    background: url(../images/cart-img.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 62px;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+}
+.form-group.months-f-g, .form-group.year-f-g {
+    float: left;
+    width: 50%;
+}
+.form-group.cvv-f-g {
+    float: left;
+    width: 50%;
+}
+.form-group.months-f-g input, 
+.form-group.year-f-g input, 
+.form-group.cvv-f-g input {
+    border: 0px;
+    height: 60px;
+}
+.form-group.months-f-g input, .form-group.year-f-g input {
+    border-right: 1px solid #d4d5d9;
+}
+.form-group.cvv-f-g input {
+    /*background: url(../images/cvv.png);*/
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 64px;
+}
+div#exTab2 img.credit {
+    max-width: 36px;
+	max-height: 25px;
+}
+div#exTab2 ul li a span {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 23px;
+    color: #595959;
+    font-family: "CamphorW01";
+    font-weight: bold;
+    padding-left: 12px;
+}
+div#exTab2 .nav-tabs li.cred {
+    /*margin-right: 30px;*/
+}
+div#exTab2 .nav-tabs li.active a {
+    border-color: #139ad6;
+}
+.Paypal {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.Paypal p {
+    font-size: 16px;
+    line-height: 23px;
+    color: #525f7f;
+    font-family: "CamphorPro-Regular";
+    margin: 0 0 15px;
+}
+.Paypal button.btn.btn-primary.rounded-pill {
+    float: none;
+}
+
+li.pymntmthd img {
+    width: 100px;
+}
+/*****************************  
+    Form Section
+*****************************/
+.form-sec {
+    clear: both;
+    padding: 48px 0 0;
+    width: 100%;
+    display: inline-block;
+}
+.form-sec .form-group label {
+    font-size: 15px;
+    line-height: 23px;
+    color: #3c464e;
+    font-family: "CamphorW01";
+    font-weight: bold;
+}
+.form-sec .form-group {
+    margin-bottom: 30px;
+}
+.form-sec .form-control {
+    height: 50px;
+    padding: 6px 16px;
+    box-shadow: none;
+    border: 2px solid #e2e5ec;
+    font-size: 15px;
+    line-height: 23px;
+    color: #3c464e;
+    font-family: "CamphorW01";
+    font-weight: bold;
+}
+.form-check {
+    position: relative;
+}
+
+.form-check input {
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    margin-left: 0px;
+}
+label.form-check-label::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0;
+    top: 3px;
+    margin-left: 0px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    background-color: #fff;
+    transform: none;
+}
+
+.form-check input:checked + label::before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 13px;
+    color: #000000;
+    top: 3px;
+    left: 0px;
+    line-height: 16px;
+    text-align: center;
+}
+label.form-check-label {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #525f7f;
+    font-family: "CamphorPro-Regular";
+    min-height: 20px;
+    padding-left: 30px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+}
+label.form-check-label span {
+    color: #5aa975;
+}
+button.btn.btn-primary {
+    /* float: right; */
+    border-radius: 3px;
+    padding: 6px 20px;
+}
+
+/*****************************  
+    Register Domain
+*****************************/
+
+.coose-domain-container {
+    /*margin-top: 30px;*/
+   /* padding-top: 20px; */
+}
+.coose-domain-container h2 {
+    padding: 20px 30px 10px;
+}
+.coose-domain-container ul li {
+    list-style: none;
+    padding: 3px 25px;
+}
+.coose-domain-container ul li input {
+    box-sizing: border-box;
+    padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block !important;
+    width: 20px;
+    height: 20px;
+    background-clip: content-box;
+    background-color: #fff !important;
+    margin-right: 4px;
+    border-radius: 30px;
+    border: 1px solid #d1d6d6 !important;
+    vertical-align: text-bottom;
+    outline: none !important;
+}
+.coose-domain-container ul li input:checked {
+    border: 4px solid #efefef !important;
+    background: #179bd3 !important;
+}
+.coose-domain-container ul li label {
+    color: #525f7f;
+    font-size: 16px;
+    font-family: 'CamphorPro-Regular';
+    font-weight: normal;
+    margin-left: 10px;
+	display:inline;
+}
+.input-search-domain {
+    width: 609px;
+    height: 50px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.15);
+    background-color: #ffffff;
+    max-width: 100%;
+	display: -webkit-box;
+    display: flex;
+    padding-right: 0;
+}
+.input-search-box input {
+    border: 0px;
+    /*background-image: url(../images/input-search-img.png);*/
+    padding-left: 27px;
+    height: 50px;
+    margin-top: 0;
+    color: #6d6d6d;
+    font-size: 16px;
+    font-family: 'CamphorPro-Regular';
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 0;
+    width: 450px;
+    max-width: 100%;
+    outline: none;
+    border-radius: 4px; 
+}
+.input-search-domain select {
+    height: 50px;
+    margin-top: 0;
+    color: #6d6d6d;
+    font-size: 16px;
+    font-family: 'CamphorPro-Regular';
+    border: 0px;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.15);
+    width: 100px;
+    background-image: url(../images/select-img.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    -webkit-appearance: none;
+}
+select.form-control:focus {
+    box-shadow: none;
+}
+button.search-icon-box {
+    border-radius: 0 4px 4px 0;
+    width: 59px;
+    height: 50px;
+    border: 0px;
+    margin-top: 0;
+    padding-top: 5px;
+    background-color: #179bd3;
+	color: #fff;
+}
+button.search-icon-box svg {
+    fill: #ffffff;
+    width: 20px;
+}
+.coose-domain-container ul li label:before {
+    display: none;
+}
+.input-search-container {
+    padding: 24px 27px 40px;
+    margin-top: 0;
+}
+input {outline: none;}
+
+/*****************************  
+    Domain Available
+*****************************/
+.domain-available-container {
+    border-radius: 4px;
+    box-shadow: 0 0 7px rgba(0,0,0,0.14);
+    background-color: #ffffff;
+    float: left;
+    width: 100%;
+    border-bottom: 4px solid #179bd3;
+    margin: 30px 0;
+    padding: 30px 30px 15px;
+}
+.domain-available-container p {
+    color: #525f7f;
+    font-size: 16px;
+    font-family: 'CamphorPro-Regular';
+    font-weight: normal;
+    margin-bottom: 7px;
+}
+.domain-available-container h3 {
+    color: #525f7f;
+    font-family: 'CamphorStd-Bold';
+    font-size: 22px;
+    float: left;
+    line-height: 28px;
+    word-break: break-all;
+}
+.domain-available-container p span {
+    color: #179bd3;
+    font-family: 'CamphorPro-Heavy';
+    text-transform: uppercase;
+}
+.domain-available-container h2 {
+    color: #179bd3;
+    font-family: 'CamphorStd-Bold';
+    font-size: 22px;
+    float: right;
+    position: relative;
+    top: -8px;
+}
+.domain-available-container h2 sup {
+    font-size: 20px;
+    top: -20px;
+}
+
+/*****************************  
+    Protect Your Domains
+*****************************/
+.product-d-title {
+    font-size: 20px;
+    line-height: 25px;
+    color: #525f7f;
+    font-family: 'CamphorW01-Medium';
+    float: left;
+    width: 100%;
+    padding: 0px 0px 15px;
+}
+.domain-name-container {
+    border-radius: 3px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.14);
+    background-color: #ffffff;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    padding: 26px 24px 26px 40px;
+    position: relative;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+h6.hot-tag {
+    background: #e79803;
+    font-family: 'CamphorPro-Regular';
+    font-size: 9px;
+    padding: 2px 5px;
+    line-height: 10px;
+    color: #0c0c0c;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    width: 35px;
+    text-align: center;
+    height: 17px;
+    padding-top: 4px;
+}
+.domain-name-container h3 {
+    font-size: 20px;
+    color: #525f7f;
+    font-family: 'CamphorW01-Medium';
+    padding-top: 5px;
+    width: 660px;
+    max-width: 74%;
+}
+.domain-name-container h2 {
+    font-size: 24px;
+    color: #525f7f;
+    font-family: 'CamphorStd-Bold';
+    width: 160px;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 0px;
+}
+.domain-name-container sub {
+    font-size: 15px;
+    color: #525f7f;
+    font-family: 'CamphorW01-Medium';
+    text-transform: uppercase;
+    bottom: 1px;
+    margin-left: 3px;
+    font-weight: 500;
+}
+button.add-to-cart-btn {
+    height: 35px;
+    border-radius: 18px;
+    background-color: #2b3d4f;
+    border: 0px;
+    font-size: 13px;
+    color: #ffffff;
+    font-family: 'CamphorW01-Medium';
+    transition: all ease 1s;
+	padding: 0 10px;
+}
+
+.domain-name-btn-container {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px 30px;
+}
+
+.domain-name-btn-container a {
+    border-radius: 18px;
+    border: 0px;
+    font-size: 13px;
+    color: #ffffff !important;
+    font-family: 'CamphorW01-Medium';
+    transition: all ease 1s;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 11px 22px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+.domain-name-btn-container a.btn-color {
+    background: #179bd3;
+}
+.domain-name-btn-container a.btn-color-1 {
+    background-color: #747c7c;  
+}
+
+/*****************************  
+    Domain Configration
+*****************************/
+.domain-configration-container {
+    border-radius: 3px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.14);
+    background-color: #ffffff;
+    padding: 22px 0px;
+    position: relative;
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+}
+.container-head-top {
+    padding: 0px 20px 20px;
+}
+.container-head-top h2, 
+.additional-nots h3 {
+    color: #293042;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'CamphorPro-Heavy';
+    padding-bottom: 10px;
+}
+.container-head-top p, 
+.domain-name-with-price .panel-heading p {
+    color: #525f7f;
+    font-size: 15px;
+    font-family: 'CamphorPro-Regular';
+    font-weight: normal;
+}
+
+.domain-name-with-price .left-img {
+    float: left;
+    margin-right: 10px;
+}
+.domain-name-with-price .left-img svg {
+    fill: #179bd3;
+}
+.domain-name-with-price .panel-heading h4 {
+    color: #50535a;
+    font-size: 20px;
+    font-family: 'CamphorStd-Bold';
+}
+.domain-name-with-price .panel-heading h5 {
+    position: absolute;
+    right: 34px;
+    top: 38px;
+    opacity: 0.5;
+    color: #293042;
+}
+.addon-domain {
+    border-radius: 2px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.32);
+    background-color: #ffffff;
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+    padding: 18px 12px 18px 0px;
+    position: relative;
+}
+.addon-domain p {
+    color: #525f7f;
+    font-size: 14px;
+    font-family: 'CamphorPro-Regular';
+    font-weight: normal;
+    margin-left: 39px;
+    margin-top: 2px;
+}
+svg.qus-img-right {
+    position: absolute;
+    right: 16px;
+    top: 20px;
+    fill: #d6d5d5;
+}
+
+.container-head-top.nameservers-container {
+    border-top: 1px solid #ecedee;
+    padding-top: 20px;
+}
+.nameservers-container-inner {
+    float: left;
+    width: 100%;
+    margin-top: 22px;
+}
+.nameservers-container-inner .form-group {
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+}
+.nameservers-container-inner .form-group label  {
+    color: #525f7f;
+    font-size: 15px;
+    font-family: 'CamphorPro-Regular';
+    font-weight: normal;
+}
+.nameservers-container-inner .form-group input {
+    height: 40px;
+    border-radius: 4px;
+    box-shadow: 0 0 0px rgba(0,0,0,0.32);
+    background-color: #ffffff;
+    width: 100%;
+    border: 2px solid #eaeaea;
+}
+a.con-btn {
+    background-color: #179bd3;
+    height: 40px;
+    color: #fff !important;
+    font-family: 'CamphorStd-Bold';
+    font-size: 16px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 0px #179bd3;
+    margin-top: 24px;
+    transition: all ease 1s;
+    text-decoration: none;
+}
+
+/*****************************  
+    Additional Nots
+*****************************/
+.additional-nots {
+    padding: 30px;
+    margin-bottom: 0;
+}
+.additional-nots textarea {
+    border-radius: 4px;
+    box-shadow: 0 0 0px rgba(0,0,0,0.32);
+    background-color: #ffffff;
+    width: 100%;
+    border: 2px solid #eaeaea;
+    resize: none;
+    height: 100px;
+    padding: 16px;
+    font-size: 15px;
+    color: #b5bac5;
+    font-family: 'CamphorPro-Regular';
+    outline: none;
+}
+.additional-nots .form-group {
+    display: flex;
+    align-items: center;
+    margin: 15px 0 0;
+}
+.additional-nots .form-check {
+    width: 100%;
+}
+
+
+/*****************************  
+    Right Side
+*****************************/
+.oredr-summary {
+    margin: 0px;
+    padding: 25px;
+    box-shadow: 0 0 7px rgba(0,0,0,0.14);
+    overflow: hidden;
+    overflow-y: auto;
+    transition: all 0.4s ease;
+    transition-duration: 0.4s;
+    transition:all 0.4s;  
+    max-height: calc(100vh - 14px);
+    width: 100%;
+    max-width: 460px;
+	background:#fff;
+    /* min-width: 460px; */
+}
+.oredr-summary.fixed {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    max-width: 460px;
+    /* min-width: 460px; */
+    padding-top: 32px;
+}
+.oredr-summary.fixed h3 {
+    margin-top: 0;
+}
+.oredr-summary::-webkit-scrollbar-thumb {
+    background: #bfbfbf;
+}
+.oredr-summary::-webkit-scrollbar {
+    width: 4px;
+}
+
+
+/*** Heading ***/
+.oredr-summary h3 {
+    color: #293042;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-family: 'CamphorPro-Heavy';
+    margin: 16px 0 15px;
+}
+.order-row {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    padding: 12px 0px 0px;
+}
+.order-row h6 {
+    color: #293042;
+    font-size: 16px;
+    font-family: 'CamphorStd-Bold';
+    width: 230px;
+    padding-top: 3px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.pri-det {
+    padding: 0 15px;
+    width: 260px;
+}
+.pri-det ul.ram-box {
+    padding: 0;
+    margin: 20px 0 0;
+    list-style: none;
+}   
+.pri-det ul.ram-box li {
+    font-size: 13px;
+    line-height: 26px;
+    color: #5c5c5c;
+    font-family: 'CamphorW01';
+    font-weight: 500;
+}
+.pri-det ul.ram-box li span {
+    margin-right: 5px;
+    color: #d0c224;
+    font-size: 12px;
+}
+a.remove {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    color: #a3a3a4;
+    font-family: 'CamphorStd-Bold';
+    font-weight: bold;
+    vertical-align:     ;
+    text-decoration: none;
+	cursor: pointer;
+}
+a.remove span {
+    vertical-align: top;
+}
+.pri-det p.tot {
+    font-size: 20px;
+    line-height: 28px;
+    color: #1b1b1b;
+    font-family: "CamphorStd-bold";
+    font-weight: bold;
+    padding: 18px 0;
+}
+
+.apply-box {
+    display: flex;
+    width: 100%;
+    margin: 0 auto 15px;
+    align-items: center;
+}
+.apply-box input {
+    background-image: url('../images/apply-bg.png');
+    background-position: left;
+    padding: 0px 11px 0px 40px;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: #bbc0bf;
+    height: 50px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: 1px dashed #959595;
+    margin-right: 10px;
+}
+.apply-box a {
+    display: inline-block;
+    border: none;
+    margin: 0px 0 0 0px;
+    font-size: 13px;
+    line-height: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "CamphorW01";
+    font-weight: 500;
+    max-width: 116px;
+    height: 50px;
+    border-radius: 2px;
+    background-color: #fa7373;
+    width: 100%;
+    text-decoration: none;
+}
+
+.oredr-summary h4 {
+    font-size: 16px;
+    line-height: 26px;
+    color: #293042;
+    font-family: "CamphorW01";
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+/* Hosting-box  */
+.row.host {
+    margin: 20px -10px 0px;
+    padding-bottom: 30px;
+}
+.row.host .col-sm-6 {
+    padding: 0 9px;
+	margin-top: 15px;
+}
+h4.pl-2 {
+    padding-left: 10px;
+}
+.hosting-box {
+    padding: 24px 10px;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.32);
+    background-color: #ffffff;
+    position: relative;
+	min-height: 145px;
+    line-height: normal;
+}
+.hosting-box .test {
+    position: absolute;
+    top: -10px;
+    right: -7px;
+}
+
+.hosting-box h5 {
+    font-size: 15px;
+    line-height: 16px;
+    color: #525f7f;
+    font-family: "CamphorStd-bold";
+    font-weight: bold;
+    text-align: center;
+    padding: 6px 0;
+}
+
+.hosting-box span {
+    font-size: 12px;
+    line-height: 17px;
+    color: #525f7f;
+    font-family: 'CamphorPro-Regular';
+    font-weight: 600;
+    display: inherit;
+}
+
+/* Order Row Text */
+.order-row.tex-row {
+    border-top: 1px solid #e6e8eb;
+    border-bottom: 1px solid #e6e8eb;
+    padding: 14px 8px;
+    display: flex;
+}
+.order-row.tex-row.btnone {
+    border: none;
+}
+.m-t30 {
+    margin-top: 15px;
+}
+.order-row.tex-row h6 {
+    color: #293042;
+    text-align: right;
+    width: 100%;
+}
+.order-row.tex-row.cost h6 {
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #293042;
+    font-family: "CamphorW01";
+    font-weight: bold;
+}
+.order-row.tex-row p {
+    width: 100%;
+    color: #525f7f;
+    font-size: 16px;
+    font-family: 'CamphorPro-Regular';
+}
+.fulfill-p {
+    color: #525f7f;
+    font-size: 14px;
+    font-family: 'CamphorPro-Regular';
+    margin: 35px auto;
+    max-width: 300px;
+}
+
+/* bttn Box  */
+.bttn-box button {
+    display: block;
+    width: 100%;
+    margin: 0 0 20px;
+    height: 45px;
+    border-radius: 4px;
+    background-color: #044c95;
+    border: none;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: "CamphorStd-Bold";
+    font-weight: 500;
+}
+.bttn-box button.checkout-btn {
+    background-color: #e79803;
+}
+button.eptty-cart {
+    border: 0px;
+    background: none;
+    display: block;
+    margin: 0 auto;
+    padding: 0px;
+    text-decoration: underline;
+    font-size: 14px;
+    line-height: 35px;
+    color: #044c95;
+    font-family: "CamphorPro-Regular";
+    font-weight: 500;
+}
+button {
+    outline: none;
+}
+
+button.bttn {
+    position: fixed;
+	top: 50%;
+    right: 0;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    display: none;
+    background-color: #044c95;
+    color: #fff;
+    z-index: 1;
+    padding: 7px 10px;
+}
+button.bttn i.fas.fa-cart-plus {
+    font-style: normal;
+    font-family: 'FontAwesome';
+}
+button.bttn span {
+    display: block;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 0 0 5px;
+    font-weight: 600;
+}
+button.close {
+    /* float: none; */
+    display: none;
+    text-align: right;
+    margin-left: auto;
+    font-size: 30px;
+    font-weight: 100;
+    opacity: 1;
+    color: #fa7373;
+}
+.right-side {
+    position: relative;
+}
+.right-side.main {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    right: 0%;
+    height: 100%;
+    z-index: 2147483647;
+    transition: all 1.8s ease 0s;
+    background: rgba(0, 0, 0, 0.7);
+    display: block;
+}
+
+/******** extra custom css added ******/
+.img_box img {
+    display: block;
+    margin: 0 auto;
+    width: 48px;
+    height: 48px;
+}
+.domain-available-container.errorUnavail {
+    border-bottom-color: #fa7373;
+}
+.domain-available-container.errorUnavail p span {
+    text-transform: inherit;
+    color: #fa7373;
+}
+a#lesssuggestion {
+    background: #e79803;
+}
+
+#loaderSpins{
+   text-align: center;
+   margin-bottom: 30px;	
+}
+#loaderSpinsProduct {
+  margin-top: 25px;
+}
+#loaderSpinsBilling {
+    margin-top: 25px;
+    text-align: center;
+}
+#loaderSpinsFirstTime {
+    margin-top: 25px;
+    text-align: center;
+	padding-top: 15px;
+    clear: both;
+}
+#loaderSpinsProduct i,#loaderSpinsBilling i,#loaderSpins i, #loaderSpinsFirstTime i{
+    font-size: 35px;
+    color: #179bd3;
+}
+input#tldsearchText {
+    padding-left: 27px;
+    height: 50px;
+    margin-top: 0;
+    color: #6d6d6d;
+    font-size: 16px;
+    font-family: 'CamphorPro-Regular';
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 0;
+    width: 450px;
+    max-width: 100%;
+    outline: none;
+    width: 100px;
+}
+section#main-body {
+    background-color: #f5f5f6;
+}
+#productBoxWgs .slick-prev {
+    display: none!important
+}
+
+#productBoxWgs .slick-next {
+    display: none!important
+}
+#productBoxWgs .slick-dots {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding:10px 0;
+	list-style-type: none;
+}
+#productBoxWgs li {
+	margin: 0 0.25rem;
+}
+#productBoxWgs .slick-dots button {
+	display: block;
+	width: 1rem;
+	height: 1rem;
+	padding: 0;
+	border: none;
+	border-radius: 100%;
+	background-color: #dacf54;
+	text-indent: -9999px;
+}
+#productBoxWgs li.slick-active button {
+  background-color: #00aded;
+}
+.intel_box:focus {
+    outline: none;
+}
+#wgsProductAddons .slick-prev {
+    display: none!important
+}
+
+#wgsProductAddons .slick-next {
+    display: none!important
+}
+#wgsProductAddons .slick-dots {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding:10px 0;
+	list-style-type: none;
+}
+#wgsProductAddons li {
+	margin: 0 0.25rem;
+}
+#wgsProductAddons .slick-dots button {
+	display: block;
+	width: 1rem;
+	height: 1rem;
+	padding: 0;
+	border: none;
+	border-radius: 100%;
+	background-color: #dacf54;
+	text-indent: -9999px;
+}
+#wgsProductAddons li.slick-active button {
+  background-color: #00aded;
+}
+.add-ons:focus {
+    outline: none;
+}
+
+.wgs-fa{
+	text-align:center;
+}
+.wgs-fa i{
+   font-size: 45px;
+   color:#044c95;
+}
+.wgs-fa i.addc1{
+   color:#e74e72;
+}
+.wgs-fa i.addc2{
+   color:#d0c224;
+}
+.wgs-fa i.addc3{
+   color:#67b26b;
+}
+h6.hot-tag{
+  color: #fff;
+  text-transform: uppercase;  
+}
+.hot-tag.sale {
+    background: #179bd3;
+}
+.hot-tag.hot {
+    background: #fa7373;
+}
+/*** social sign in ****/
+#collapseseven .sub-heading-borderless {
+    text-align: center;
+}
+#collapseeight .sub-heading {
+    text-align: center;
+}
+.wgs-domain-contact{
+	margin-top: 25px;
+}
+div#exTab2 .nav-tabs li{
+    margin-right: 10px;
+	margin-bottom: 10px;
+}
+.protect-wrapper .panel-heading a img {
+    height: 42px;
+}
+#wgs_promo_wraper .panel-body p br {
+    display: none;
+}
+#wgs_promo_wraper .myCheckbox span.pull-right {
+    color: #525f7f;
+    font-size: 14px;
+    font-family: 'CamphorStd-Bold';
+    float: right;
+    position: absolute;
+    right: 13px;
+}
+.protect-wrapper ul li input:checked {
+    border: 4px solid #efefef !important;
+    background: #179bd3 !important;
+}
+.protect-wrapper ul li input {
+    box-sizing: border-box;
+    padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block !important;
+    width: 20px;
+    height: 20px;
+    background-clip: content-box;
+    background-color: #fff !important;
+    margin-right: 4px;
+    border-radius: 30px;
+    border: 1px solid #d1d6d6 !important;
+    vertical-align: text-bottom;
+    outline: none !important;
+}
+.protect-wrapper .myCheckbox input {
+    z-index: unset;
+    right: 0;
+    position: unset;
+    opacity: unset;
+    cursor: pointer;
+}
+.protect-wrapper .myCheckbox .lab-text {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.protect-wrapper label.lab-text.radio-inline {
+    width: 100%;
+}
+.protect-wrapper .myCheckbox{
+	width:100%;
+}
+input[type="checkbox"][id^="ado"] {
+    display: none;
+}
+.choose-configurable-wrapper {
+    float: left;
+    width: 100%;
+    padding: 40px 30px;
+    position: relative;
+    background-color: #fafbfc;
+}
+.choose-configurable-wrapper ul li input {
+    box-sizing: border-box;
+    padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block !important;
+    width: 20px;
+    height: 20px;
+    background-clip: content-box;
+    background-color: #fff !important;
+    margin-right: 4px;
+    border-radius: 30px;
+    border: 1px solid #d1d6d6 !important;
+    vertical-align: text-bottom;
+    outline: none !important;
+	cursor:pointer;
+}
+.choose-configurable-wrapper ul li input:checked {
+    border: 4px solid #efefef !important;
+    background: #179bd3 !important;
+}
+.choose-configurable-wrapper ul li label {
+    color: #525f7f;
+    font-size: 16px;
+    font-family: 'CamphorPro-Regular';
+    font-weight: normal;
+    margin-left: 10px;
+	cursor:pointer;
+}
+.choose-configurable-wrapper ul li{
+    list-style: none;
+}
+.choose-configurable-wrapper ul li :checked + label::before {
+    content: "";
+    background-color: transparent;
+    transform: unset;
+    z-index: unset;
+}
+.wgsPadding{
+	padding-left:0px;
+	padding-right:0px;
+}
+.choose-custom-field-wrapper{
+    float: left;
+    width: 100%;
+    padding: 40px 30px;
+    position: relative;
+    background-color: #fff;	
+}
+.login-details.custom-field-wgs .field-container {
+    margin-left: 15px;
+}
+.login-details.custom-field-wgs input[type="checkbox"][id^="customfield"] {
+    height:15px;
+	width:15%;
+}
+.choose-server-configuration-wraper{
+	float: left;
+    width: 100%;
+    padding: 40px 30px;
+    background-color: #fafbfc;
+    border-top: 1px solid #ecedee;
+    border-bottom: 1px solid #ecedee;
+}
+.wgs-checkout-hooks-cls .sub-heading{
+	display:none;
+}
+.wgs-checkout-hooks-cls .mc-promos.checkout{
+	display:none;
+}
+i#wgssummaryloaders {
+    color: #179bd3;
+    float: right;
+}
+i.wgsrem {
+    color: #fa7373;
+}
+.modal-backdrop.in {
+    opacity: 0;
+}
+.modal-backdrop {
+    z-index: -9999999;
+}
+.apply-box.remove-prm a {
+    max-width: 180px;
+}
+p.view-cart-promotion-code{
+	width: 100%;
+    color: #525f7f;
+    font-size: 16px;
+    font-family: 'CamphorPro-Regular';	
+}
+.view-cart-empty {
+    width: 100%;
+    color: #525f7f;
+    font-size: 16px;
+    font-family: 'CamphorPro-Regular';
+}
+div#exTab2 .nav-tabs li{
+	cursor:pointer;
+}
+.domain-available-container .wgs-domain-res h2 {
+    text-align: center;
+    top: 0;
+    position: inherit;
+    margin:0;
+    padding: 0;
+    line-height: 28px;
+}
+.wgs-domain-res button.add-to-cart-btn {
+    float: right;
+}
+button.removeBtnCat{
+    background: #fa7373;
+}
+.wgs-domain-row-section span.item-title {
+    color: #293042;
+    font-size: 16px;
+    font-family: 'CamphorStd-Bold';
+    width: 230px;
+    padding-top: 3px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.row.wgs-domain-row-section {
+    border-top: 1px solid #e6e8eb;
+    border-bottom: 1px solid #e6e8eb;
+    padding: 14px 24px;
+    display: flex;
+}
+.wgs-domain-row-section span.item-domain {
+	color: #179bd3;
+    font-size: 15px;
+	display: inherit;
+    word-break: break-all;
+}
+.wgs-domain-row-section .item-price{
+    color: #5c5c5c;	
+}
+i.wgs-glb{
+	font-size: 25px;
+    color: #179bd3;	
+}
+a.con-btn {
+    cursor: pointer;
+}
+.row.wgs-domain-custom-field {
+    margin: 0 0 20px;
+}
+.row.wgs-domain-custom-field .form-control{
+	box-shadow: none;
+    height: 38px;
+    border-color: #e7e7e7;
+	width: 100%;	
+}
+.addon-domain .myCheckbox .lab-text {
+    cursor: pointer;
+}
+.form-group.cart-descrip input{
+	border: 0px;
+	border-top: 1px solid #d4d5d9;
+    border-bottom: 1px solid #d4d5d9;
+    height: 60px;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 62px;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+}
+ul.wgs-new-card li {
+    list-style: none;
+	padding-bottom: 15px;
+}
+.row.payment-card-number-box {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+ul.wgs-new-card li input:checked {
+    border: 4px solid #efefef !important;
+    background: #179bd3 !important;
+}
+ul.wgs-new-card li input {
+    box-sizing: border-box;
+    padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block !important;
+    width: 20px;
+    height: 20px;
+    background-clip: content-box;
+    background-color: #fff !important;
+    margin-right: 4px;
+    border-radius: 30px;
+    border: 1px solid #d1d6d6 !important;
+    vertical-align: text-bottom;
+    outline: none !important;
+}
+ul.wgs-new-card li label.radio-inline {
+    color: #525f7f;
+    font-size: 16px;
+    font-family: 'CamphorPro-Regular';
+    font-weight: normal;
+}
+.wgs-exist-cc {
+    display: flex;
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 2px solid #e2e5ec;
+    margin-bottom: 10px;
+}
+.wgs-exist-cc .paymethod-info {
+    display: inline;
+}
+.wgs-exist-cc .paymethod-info input:checked {
+    border: 4px solid #efefef !important;
+    background: #179bd3 !important;
+}
+.wgs-exist-cc .paymethod-info input {
+    box-sizing: border-box;
+    padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block !important;
+    width: 20px;
+    height: 20px;
+    background-clip: content-box;
+    background-color: #fff !important;
+    margin-right: 4px;
+    border-radius: 30px;
+    border: 1px solid #d1d6d6 !important;
+    vertical-align: text-bottom;
+    outline: none !important;
+	    margin-top: 0;
+}
+.wgs-exist-cc .paymethod-info.checkbox-inline, .wgs-exist-cc .paymethod-info.radio-inline {
+   margin: 0 10px 0 0;
+       padding-left: 4px;
+}
+p.transferWg button{
+	float:right;
+}
+.col-sm-12.wgs-epp-code input {
+    height: 40px;
+    border-radius: 4px;
+    box-shadow: 0 0 0px rgba(0,0,0,0.32);
+    background-color: #ffffff;
+    width: 100%;
+    border: 2px solid #eaeaea;
+}
+.col-sm-12.wgs-epp-code label.field-icon {
+    padding-top: 10px;
+    color: #525f7f;
+    font-size: 15px;
+    font-family: 'CamphorPro-Regular';
+    font-weight: normal;
+}
+#validation_error.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+}
+#validation_error.alert-danger ul {
+    list-style: none;
+}
+.wgs_checkout_data .checkout-security-msg {
+    margin-top: 25px !important;
+    float: left !important;
+    font-size: 12px !important;
+    width: 100% !important;
+}
+.wgs-domain-row-section span.item-domain i{
+	padding-right: 5px;
+	vertical-align: middle;
+}
+.existing-customer-container .already-registered.clearfix {
+    padding: 10px;
+}
+.existing-customer-container .already-registered.clearfix p{
+    color: #293042;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'CamphorPro-Heavy';
+    margin: 10px 20px;
+}
+div#existingCardInfo {
+    margin-left: 0px;
+}
+.wgs-switch-class .switch {
+    position: relative;
+    display: inline-block;
+    width: 46px;
+    height: 21px;
+}
+.wgs-switch-class .switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.wgs-switch-class .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:#b1210e;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.wgs-switch-class .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.wgs-switch-class .slider.round:before {
+    border-radius: 50%;
+}
+.wgs-switch-class input:checked + .slider {
+  background-color: #45903a;
+}
+.wgs-switch-class input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+.wgs-switch-class input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+.wgs-switch-class span.slider.round {
+    border-radius: 103px;
+}
+#domainErrorD p {
+    color: #ea141e;
+    font-size: 16px;
+    font-family: 'CamphorPro-Regular';
+    font-weight: normal;
+    margin-left: 10px;
+    padding: 10px 0;
+}
+.prodWgs.slick-initialized .slick-slide {
+    padding-top: 5px;
+}
+.wgsAddonSlider.slick-initialized .slick-slide {
+    padding-top: 5px;
+}
+i.wgs-edit-pencil {
+    font-size: 12px;
+    color: #179bd3;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.wgs-generate-password {
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    font-family: camphorw01;
+    font-weight: 500;
+    background: #179bd3;
+    border-color: #179bd3;
+}
+.wgs-generate-password:focus {
+    color: #fff;
+    border-color: #179bd3;
+    background: #179bd3;
+    outline: none;
+}
+.wgs-generate-password:hover {
+    color: #fff;
+    border-color: #179bd3;
+    background: #179bd3;
+}
+#modalGeneratePasswordWgs .modal-content {
+    border: none;
+}
+#modalGeneratePasswordWgs .panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #179bd3;
+    border-color: #179bd3;
+}
+#modalGeneratePasswordWgs button.btn.btn-default.btn-sm{
+    background: #ece0e0;
+    color: #000;
+    border-color: #ece0e0;
+}
+#modalGeneratePasswordWgs button.btn.btn-default.btn-sm.copy-to-clipboard {
+    background: #ece0e0;
+    border-color: #ece0e0;
+}
+#modalGeneratePasswordWgs .modal-footer button.btn.btn-default{
+    background: #fa7373;
+    border-color: #fa7373;
+    color: #fff;
+}
+button#btnGeneratePasswordInsertWgs{
+    color: #fff;
+    background-color: #179bd3;
+    border-color: #179bd3;
+}
+#footer {
+    position: relative;
+}
+#btnDomainManages {
+    display: inline-block;
+    border: none;
+    margin: 0px 0px 10px 0px;
+    font-size: 13px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "CamphorW01";
+    font-weight: 500;
+    max-width: 250px;
+    height: 32px;
+    border-radius: 2px;
+    background-color: #179bd3;
+    width: 100%;
+    text-decoration: none;
+    float: right;
+    line-height: 24px;
+}
+#productDomainMsg p {
+    font-size: 15px;
+    line-height: 26px;
+    color: #e79803;
+    font-family: 'CamphorW01';
+    font-weight: 500;
+	padding-bottom: 10px;
+}
+.assign-product-domain {
+    float: left;
+    width: 100%;
+    padding: 40px 30px;
+    position: relative;
+    background-color: #fafbfc;
+}
+.prodWgs .intel_box .chk-note {
+    background: #d5efe4;
+    padding: 2px 20px;
+    max-width: 55%;
+    border-radius: 0px 20px 20px 0px;
+    font-size: 10px;
+    color: #1b9e54;
+    position: absolute;
+	z-index: 9;
+}
+body.wgsoverlay {
+    overflow: hidden;
+}
+.field-container.wgs-custom-field-container .form-group {
+    width: 100%;
+}
+.field-container.wgs-custom-field-container .form-group select {
+    height: 40px;
+}
+.label-success.wgs-custom-label-cart-one-page{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50% !important;
+    position: absolute;
+    top: 5px;
+    right: 2px;
+    font-size: 11px;
+    font-weight: normal;
+    width: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    height: 18px;
+    line-height: 13px;
+    text-align: center;
+    padding: 2px;
+    background-color: #d0c224;
+    line-height: 14px !important;
+}
+.wgsblink {
+	animation: shadow-pulse 1s infinite;
+}
+.wgs-option-four {
+    margin-bottom: 20px;
+}
+@keyframes blinker {  
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+@keyframes shadow-pulse{
+  0% {
+	box-shadow: 0 0 0 0px rgb(23, 155, 211,0.7);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes shadow-pulse-big{
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 40px rgba(0, 0, 0, 0);
+  }
+}
+/*** modal design css ***/
+#modalRemoveItem,#modalEmptyCartWgs {
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0;
+}
+#modalRemoveItem .modal-body,#modalEmptyCartWgs .modal-body {
+    position: relative;
+    padding: 20px 40px;
+    background: #fff;
+    border: none;
+}
+#modalRemoveItem .modal-content,#modalEmptyCartWgs .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 0 0px;
+}
+#modalRemoveItem .modal-header,#modalEmptyCartWgs .modal-header {
+    padding: 10px 15px;
+    border-bottom: none;
+    background: #fa7373;
+    border-radius: 5px 5px 0 0;
+}
+#modalRemoveItem .modal-title,#modalEmptyCartWgs .modal-title {
+    color: #fff;
+	font-weight: normal;
+}
+#modalRemoveItem .modal-footer,#modalEmptyCartWgs .modal-footer {
+    padding: 10px 15px;
+    text-align: center;
+    border-top: none;
+    background: #f0f0f0;
+    border-radius: 0px 0px 5px 5px;
+}
+#modalRemoveItem .modal-footer button.btn.btn-default,#modalEmptyCartWgs .modal-footer button.btn.btn-default {
+    background: #2b3d4f;
+    color: #fff;
+    border-color: #2b3d4f;
+}
+#modalRemoveItem .modal-footer .btn-primary,#modalEmptyCartWgs .modal-footer .btn-primary {
+    color: #fff;
+    background-color: #179bd3;
+    border-color: #179bd3;
+	height: auto;
+}
+#modalRemoveItem .modal-dialog,#modalEmptyCartWgs .modal-dialog{
+    top: 30%;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+/*** modal design css end ***/
+.frm-right {
+    width: 100%;
+    max-width: 200px;
+    float: right;
+    margin-bottom: 10px;
+}
+.frm-right select{
+	border-radius: 5px;
+    background-color: #fff;
+    border: 2px solid #e2e5ec;
+    box-shadow: none;
+    font-size: 13px;
+    height: 34px;
+}
+.no-space{
+	padding:0px;
+}
+.top-6{margin-top:6px;}
+.prodWgs .intel_box .check_box label .xeon::-webkit-scrollbar-thumb {
+    background: #bfbfbf;
+}
+.prodWgs .intel_box .check_box label .xeon::-webkit-scrollbar {
+    width: 4px;
+}
+.wgsDisable{
+	pointer-events: none;
+}
+button#btnAlreadyRegistered {
+    background-color: #179bd3;
+    border-color: #179bd3;
+}
+/*** social sign in button **********/
+.btn-facebook {
+    background: #3b5998 !important;
+    border: 2px solid #3b5998 !important;
+    color: #fff !important;
+    padding: 8px 20px !important;
+    font-weight: 700!important;
+    font-size: 15px!important;
+    border-radius: 8px!important;
+    margin-right: 15px;
+}
+.btn-facebook:hover {
+    color: #3b5998 !important;
+    background-color: #fff !important;
+}
+.btn-google {
+    padding: 8px 20px !important;
+    border: 2px solid #dd4b39 !important;
+    font-weight: 700!important;
+    font-size: 15px!important;
+    border-radius: 8px!important;
+	color: #fff;
+    background-color: #dd4b39;
+}
+.btn-google:hover {
+    background: #fff !important;
+    color: #dd4b39 !important;
+}
+/*** clientx compatible ***/
+.no-cartx .oredr-summary.fixed {
+    top: 85px;
+}
+.no-cartx  .label-success.wgs-custom-label-cart-one-page {
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+    position: absolute !important;
+    top: 5px !important;
+    right: 2px !important;
+    font-size: 11px !important;
+    font-weight: normal !important;
+    width: 18px !important;
+    font-weight: 600 !important;
+    color: #ffffff !important;
+    height: 18px !important;
+    line-height: 13px !important;
+    text-align: center !important;
+    padding: 2px !important;
+    background-color: #d0c224 !important;
+    line-height: 14px !important;
+}
+/*** hostx compatible ***/
+footer.footer{
+    position: relative;
+}
+#modalRemoveItem .modal-footer button.btn.btn-default, #modalEmptyCartWgs .modal-footer button.btn.btn-default {
+    padding: 6px 12px;
+	height: auto;
+}
+.collapse.in{
+    display: block !important;
+}
+.copyright{
+    position: relative;
+}
+.right-content button.bttn i {
+    color: #fff;
+	font: unset;
+}
+.intel_box .check_box span.ram-box li {
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    color: #7f7f7f;
+    font-family: 'CamphorPro-Regular';
+    font-weight: 600;
+    margin: 0;
+    position: relative;
+    padding: 0 0 24px 24px;
+}
+.intel_box .check_box span.ram-box li:before {
+    content: "\f058";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'FontAwesome';
+    color: #d0c224;
+    font-size: 16px;
+}
+.login-details.create-account {
+    margin-top: 12px;
+}
+#collapseeight .sub-heading span {
+    font-size: 14px;
+}
+p.small.text-center.text-muted {
+    padding: 6px 0;
+    font-size: 12px;
+}
+/**** lagom theme compatible ****/
+.lagom .main-body {
+    background-color: #f5f5f6;
+    padding-top: 0px;
+}
+.lagom .currency-domain-div select.form-control {
+    height: 34px;
+    color: #555;
+    font-size: 14px;
+    line-height: 23px;
+}
+.lagom .prodWgs .intel_box .chk-note {
+    line-height: 15px;
+}
+.lagom #btnDomainManages {
+    line-height: 20px;
+}
+.lagom button#btnAlreadyRegistered {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    padding: 6px 12px;
+    height: auto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+}
+.lagom div#exTab2 .nav-tabs {
+    padding: 0;
+}
+.lagom #paymentGatewaysContainer .nav-tabs>li.active>a:after{
+	display:none;
+}
+.lagom #paymentGatewaysContainer .nav>li>a>img {
+    margin: 0 auto;
+}
+.lagom .coose-domain-container ul li label{
+	display:inline;
+}
+.lagom button#btnNewUserSignup {
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    height: auto;
+    padding: 6px 12px;
+}
+.lagom .main-header {
+    display: none;
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+.lagom .margin-bottom {
+    clear: both;
+}
+.lagom .panel-form {
+    background: transparent;
+    border-color: transparent;
+}
+.lagom .progress-bar {
+    width: 0%;
+}
+.lagom .main-footer {
+    position: relative;
+}
+.lagom .radio-inline>.addon-selector {
+    visibility: visible;
+}
+body.lagom .oredr-summary.fixed {
+    top: 45px;
+}
+.lagom .social-signin-btns .btn {
+    display: inline-block;
+    font-weight: 400!important;
+    width: auto;
+    text-indent: inherit;
+    overflow: inherit;
+    text-align: left;
+}
+.lagom .social-signin-btns .btn i{
+    display: inline-block;
+    width: auto;
+}
