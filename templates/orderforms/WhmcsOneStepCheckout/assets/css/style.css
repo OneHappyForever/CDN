@@ -9,55 +9,55 @@ body.check-out {
 
 @font-face {
   font-family: 'CamphorPro-Regular';
-  src: url('../fonts/CamphorPro-Regular.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/CamphorPro-Regular.woff') format('woff'),
-  url('../fonts/CamphorPro-Regular.ttf')  format('truetype'),
-  url('../fonts/CamphorPro-Regular.svg#CamphorPro-Regular') format('svg');
+  src: url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorPro-Regular.eot?#iefix') format('embedded-opentype'),
+  url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorPro-Regular.woff') format('woff'),
+  url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorPro-Regular.ttf')  format('truetype'),
+  url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorPro-Regular.svg#CamphorPro-Regular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'CamphorPro-Light';
-  src: url('../fonts/CamphorPro-Light.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/CamphorPro-Light.woff') format('woff'),
-  url('../fonts/CamphorPro-Light.ttf')  format('truetype'),
-  url('../fonts/CamphorPro-Light.svg#CamphorPro-Light') format('svg');
+  src: url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorPro-Light.eot?#iefix') format('embedded-opentype'),
+  url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorPro-Light.woff') format('woff'),
+  url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorPro-Light.ttf')  format('truetype'),
+  url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorPro-Light.svg#CamphorPro-Light') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'CamphorStd-Bold';
-  src: url('../fonts/CamphorStd-Bold.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/CamphorStd-Bold.woff') format('woff'),
-  url('../fonts/CamphorStd-Bold.ttf')  format('truetype'),
-  url('../fonts/CamphorStd-Bold.svg#CamphorStd-Bold') format('svg');
+  src: url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorStd-Bold.eot?#iefix') format('embedded-opentype'),
+  url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorStd-Bold.woff') format('woff'),
+  url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorStd-Bold.ttf')  format('truetype'),
+  url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorStd-Bold.svg#CamphorStd-Bold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
     font-family: 'CamphorW01';
-    src: url('../fonts/CamphorW01-Medium.eot');
-    src: url('../fonts/CamphorW01-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/CamphorW01-Medium.woff') format('woff'),
-        url('../fonts/CamphorW01-Medium.ttf') format('truetype');
+    src: url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorW01-Medium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorW01-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorW01-Medium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorW01-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
   font-family: 'CamphorPro-Heavy';
-  src: url('../fonts/CamphorPro-Heavy.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/CamphorPro-Heavy.woff') format('woff'),
-  url('../fonts/CamphorPro-Heavy.ttf')  format('truetype'),
-  url('../fonts/CamphorPro-Heavy.svg#CamphorPro-Heavy') format('svg');
+  src: url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorPro-Heavy.eot?#iefix') format('embedded-opentype'),
+  url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorPro-Heavy.woff') format('woff'),
+  url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorPro-Heavy.ttf')  format('truetype'),
+  url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorPro-Heavy.svg#CamphorPro-Heavy') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'CamphorW01-Medium';
-  src: url('../fonts/CamphorW01-Medium.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/CamphorW01-Medium.woff') format('woff'),
-  url('../fonts/CamphorW01-Medium.ttf')  format('truetype'),
-  url('../fonts/CamphorW01-Medium.svg#CamphorW01-Medium') format('svg');
+  src: url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorW01-Medium.eot?#iefix') format('embedded-opentype'),
+  url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorW01-Medium.woff') format('woff'),
+  url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorW01-Medium.ttf')  format('truetype'),
+  url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/fonts/CamphorW01-Medium.svg#CamphorW01-Medium') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -137,7 +137,7 @@ img {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background-image: url(../images/select-img.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/images/select-img.png);
     background-repeat: no-repeat;
     background-position: right;
     width: 100%;
@@ -531,7 +531,7 @@ button.add-to-cart-btn{
     border: 1.5px solid #ddd;
 }
 .myCheckbox input:checked + i:before {
-    /* background: url(../images/input-img-after.png); */
+    /* background: url(https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/images/input-img-after.png); */
     content: "\f00c";
     position: absolute;
     top: 0;
@@ -679,7 +679,7 @@ h4.m-cl {
     -webkit-appearance: none;
     margin-top: 18px;
     padding-left: 17px;
-    background: url(../images/select-contect.png);
+    background: url(https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/images/select-contect.png);
     background-repeat: no-repeat;
     background-position: right;
     width: 380px;
@@ -742,7 +742,7 @@ div#exTab2 .nav-tabs li a {
     border: 0px;
     border-bottom: 1px solid #d4d5d9;
     height: 60px;
-    background: url(../images/cart-img.png);
+    background: url(https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/images/cart-img.png);
     background-position: right;
     background-repeat: no-repeat;
     padding-right: 62px;
@@ -768,7 +768,7 @@ div#exTab2 .nav-tabs li a {
     border-right: 1px solid #d4d5d9;
 }
 .form-group.cvv-f-g input {
-    /*background: url(../images/cvv.png);*/
+    /*background: url(https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/images/cvv.png);*/
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 64px;
@@ -956,7 +956,7 @@ button.btn.btn-primary {
 }
 .input-search-box input {
     border: 0px;
-    /*background-image: url(../images/input-search-img.png);*/
+    /*background-image: url(https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/images/input-search-img.png);*/
     padding-left: 27px;
     height: 50px;
     margin-top: 0;
@@ -980,7 +980,7 @@ button.btn.btn-primary {
     border: 0px;
     box-shadow: 0px 0px 0px rgba(0,0,0,0.15);
     width: 100px;
-    background-image: url(../images/select-img.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/images/select-img.png);
     background-repeat: no-repeat;
     background-position: right;
     -webkit-appearance: none;
@@ -1434,7 +1434,7 @@ a.remove span {
     align-items: center;
 }
 .apply-box input {
-    background-image: url('../images/apply-bg.png');
+    background-image: url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/assets/images/apply-bg.png');
     background-position: left;
     padding: 0px 11px 0px 40px;
     background-repeat: no-repeat;

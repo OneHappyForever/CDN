@@ -1009,7 +1009,7 @@
  * Domain Renewals
  */
 .form-control.domain-renewals-filter {
-    background: url(../../../../assets/img/search.png) #fff no-repeat 8px 5px !important;
+    background: url(//wannaflix.net/assets/img/search.png) #fff no-repeat 8px 5px !important;
     padding: 7px 10px 7px 45px !important;
     height: auto !important;
     width: 200px !important;
@@ -1324,7 +1324,7 @@
     padding: 0;
     width: 22px;
     height: 22px;
-    background: url(blue.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/css/blue.png) no-repeat;
     border: none;
     cursor: pointer;
 }
@@ -1367,7 +1367,7 @@
 @media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_square-blue,
     .iradio_square-blue {
-        background-image: url(blue@2x.png);
+        background-image: url(blue@https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.14/templates/orderforms/WhmcsOneStepCheckout/css/2x.png);
         -webkit-background-size: 240px 24px;
         background-size: 240px 24px;
     }
