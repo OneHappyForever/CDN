@@ -324,7 +324,7 @@ body.nowhmcs p {
     background-size: 400px;
     background-repeat: no-repeat;
     background-position: center right;
-    background-image: url(../img/slider-bg.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.11/templates/NeWorld/assets/img/slider-bg.png);
 }
 .home-slider:after {
 	content: '';
@@ -482,7 +482,7 @@ body.nowhmcs p {
 /* 第一个框 */
 .pricing-list>li:nth-child(1)>.package>.top {
 	background-color: #FFDE87;
-	background-image: url('../img/pricing-list-1.png');
+	background-image: url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.11/templates/NeWorld/assets/img/pricing-list-1.png');
 }
 .pricing-list>li:nth-child(1)>.package>.info>h4,
 .pricing-list>li:nth-child(1)>.package>.info>h4>small {
@@ -500,7 +500,7 @@ body.nowhmcs p {
 /* 第二个框 */
 .pricing-list>li:nth-child(2)>.package>.top {
 	background-color: #F98AA6;
-	background-image: url('../img/pricing-list-2.png');
+	background-image: url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.11/templates/NeWorld/assets/img/pricing-list-2.png');
 }
 .pricing-list>li:nth-child(2)>.package>.info>h4,
 .pricing-list>li:nth-child(2)>.package>.info>h4>small {
@@ -518,7 +518,7 @@ body.nowhmcs p {
 /* 第三个框 */
 .pricing-list>li:nth-child(3)>.package>.top {
 	background-color: #1FE09D;
-	background-image: url('../img/pricing-list-3.png');
+	background-image: url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.11/templates/NeWorld/assets/img/pricing-list-3.png');
 }
 .pricing-list>li:nth-child(3)>.package>.info>h4,
 .pricing-list>li:nth-child(3)>.package>.info>h4>small {
@@ -537,7 +537,7 @@ body.nowhmcs p {
 /* 第四个框 */
 .pricing-list>li:nth-child(4)>.package>.top {
 	background-color: #14A7DB;
-	background-image: url('../img/pricing-list-4.png');
+	background-image: url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.11/templates/NeWorld/assets/img/pricing-list-4.png');
 }
 .pricing-list>li:nth-child(4)>.package>.info>h4,
 .pricing-list>li:nth-child(4)>.package>.info>h4>small {
@@ -555,7 +555,7 @@ body.nowhmcs p {
 /* 第五个框 */
 .pricing-list>li:nth-child(5)>.package>.top {
 	background-color: #7E80E2;
-	background-image: url('../img/pricing-list-5.png');
+	background-image: url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.11/templates/NeWorld/assets/img/pricing-list-5.png');
 }
 .pricing-list>li:nth-child(5)>.package>.info>h4,
 .pricing-list>li:nth-child(5)>.package>.info>h4>small {
@@ -575,7 +575,7 @@ body.nowhmcs p {
 	background-color: #14A7DB;
 }
 .slider-1 .container {
-	background-image: url('../img/slider-1.png');
+	background-image: url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.11/templates/NeWorld/assets/img/slider-1.png');
 	background-size: 50%;
 	background-position: center right;
 	background-repeat: no-repeat;
@@ -602,7 +602,7 @@ body.nowhmcs p {
 	box-shadow: inset 0px 2px 7px -2px rgba(0,0,0,.35);
 }
 .slider-2 .container {
-	background-image: url('../img/slider-2.png');
+	background-image: url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.11/templates/NeWorld/assets/img/slider-2.png');
 	background-size: 100%;
 	background-position: center bottom;
 	background-repeat: no-repeat;
@@ -735,7 +735,7 @@ section.home-features2 {
     background-image: linear-gradient(to top,#f5f8fb 0,#fff 100%);
 }
 .big-feature.control {
-    background: url('../img/wave-first@2x.png')repeat-x center bottom -60px,url('../img/wave-second@2x.png')repeat-x center bottom -60px;
+    background: url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.11/templates/NeWorld/assets/img/wave-first@2x.png')repeat-x center bottom -60px,url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.11/templates/NeWorld/assets/img/wave-second@2x.png')repeat-x center bottom -60px;
     background-size: 1862px auto;
 }
 .big-feature.dashboard .container {
@@ -813,7 +813,7 @@ section.home-features2 {
 }
 .big-feature .image-side .image {
     max-width: 936px;
-    background: url(../img/bbb.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.11/templates/NeWorld/assets/img/bbb.png) no-repeat;
     background-size: 100% auto;
 }
 .control .image-side .image {
@@ -832,12 +832,12 @@ section.home-features2 {
 .global .container {
     height: 678px;
     padding-top: 65px;
-    background: url('../img/map.png')no-repeat center bottom -50px
+    background: url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.11/templates/NeWorld/assets/img/map.png')no-repeat center bottom -50px
 }
 @media only screen and (-webkit-min-device-pixel-ratio:1.5),
 only screen and (min-device-pixel-ratio:1.5) {
     .global .container {
-        background: url('../img/map@2x.png')no-repeat center bottom -50px;
+        background: url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.11/templates/NeWorld/assets/img/map@2x.png')no-repeat center bottom -50px;
         background-size: 997px 510px
     }
 }
@@ -1369,7 +1369,7 @@ only screen and (min-device-pixel-ratio:1.5) {
     height: 16px;
     margin-top: -8px;
     margin-left: -8px;
-    background: url('../img/success@2x.png')no-repeat 0 0;
+    background: url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.11/templates/NeWorld/assets/img/success@2x.png')no-repeat 0 0;
     background-size: 100% auto
 }
 .global .website.warning .status .icon--side {
@@ -1383,7 +1383,7 @@ only screen and (min-device-pixel-ratio:1.5) {
     height: 16px;
     margin-top: -10px;
     margin-left: -9px;
-    background: url('../img/warning@2x.png')no-repeat 0 0;
+    background: url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.11/templates/NeWorld/assets/img/warning@2x.png')no-repeat 0 0;
     background-size: 100% auto
 }
 .global .website.error .status .icon--side {
@@ -1397,7 +1397,7 @@ only screen and (min-device-pixel-ratio:1.5) {
     height: 16px;
     margin-top: -8px;
     margin-left: -8px;
-    background: url('../img/error@2x.png')no-repeat 0 0;
+    background: url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.11/templates/NeWorld/assets/img/error@2x.png')no-repeat 0 0;
     background-size: 100% auto
 }
 
@@ -2379,7 +2379,7 @@ table.dataTable thead .sorting_desc:after {
     border-bottom: 1px solid #EEE;
 }
 .affiliates .slider {
-    background: url('../img/affiliates.jpg') no-repeat;
+    background: url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.11/templates/NeWorld/assets/img/affiliates.jpg') no-repeat;
     text-align: center;
     height: 130px;
     font-size: 18px;
@@ -2435,7 +2435,7 @@ table.dataTable thead .sorting_desc:after {
     border-radius: 4px 4px 0 0;
 }
 .affiliate-referral-link .main h2 {
-    background: url('../img/affiliate-referral-link.jpg') no-repeat;
+    background: url('https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.11/templates/NeWorld/assets/img/affiliate-referral-link.jpg') no-repeat;
     background-size: cover;
     text-align: center;
     font-size: 18px;
@@ -2697,11 +2697,11 @@ table.dataTable thead .sorting_desc:after {
     position: relative;
 }
 .location-map .map {
-    background: url(../img/map.svg) no-repeat center center;
+    background: url(https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.11/templates/NeWorld/assets/img/map.svg) no-repeat center center;
     background-size: cover;
 }
 .location-map .map-grey {
-    background: url(../img/map-grey.svg) no-repeat center center;
+    background: url(https://cdn.jsdelivr.net/gh/OneHappyForever/CDN@1.0.11/templates/NeWorld/assets/img/map-grey.svg) no-repeat center center;
     background-size: cover;
 }
 .location-container {
